@@ -1,0 +1,99 @@
+// Global Foundation Settings
+@import "settings";
+
+// Comment out this import if you don't want to use normalize
+@import "normalize";
+
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+// @import "foundation/components/global"; // *always required
+// @import "foundation/components/grid";
+// @import "foundation/components/visibility";
+// @import "foundation/components/block-grid";
+// @import "foundation/components/type";
+// @import "foundation/components/buttons";
+// @import "foundation/components/forms"; // *requires components/buttons
+// @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
+// @import "foundation/components/button-groups"; // *requires components/buttons
+// @import "foundation/components/dropdown-buttons"; // *requires components/buttons
+// @import "foundation/components/split-buttons"; // *requires components/buttons
+// @import "foundation/components/flex-video";
+// @import "foundation/components/section";
+// @import "foundation/components/top-bar";  // *requires components/grid
+// @import "foundation/components/orbit";
+// @import "foundation/components/reveal";
+// @import "foundation/components/joyride";
+// @import "foundation/components/clearing";
+// @import "foundation/components/alert-boxes";
+// @import "foundation/components/breadcrumbs";
+// @import "foundation/components/keystrokes";
+// @import "foundation/components/labels";
+// @import "foundation/components/inline-lists";
+// @import "foundation/components/pagination";
+// @import "foundation/components/panels";
+// @import "foundation/components/pricing-tables";
+// @import "foundation/components/progress-bars";
+// @import "foundation/components/side-nav";
+// @import "foundation/components/sub-nav";
+// @import "foundation/components/switch";
+// @import "foundation/components/magellan";
+// @import "foundation/components/tables";
+// @import "foundation/components/thumbs";
+// @import "foundation/components/tooltips";
+// @import "foundation/components/dropdown";
+
+html, body {
+  background: $dark-brown url(../images/bg-body.jpg);
+}
+
+div.row {
+  background-color: $white-brown;
+}
+
+nav {
+  margin-top: emCalc(128px);
+  margin-bottom: emCalc(40px);
+  ul {
+    text-align: center;
+    li {
+      display: inline-block;
+    }
+  }
+
+  a {
+    transition: 1s ease-in;
+    font-size: emCalc(36px);
+    color: $white-brown;
+    opacity: .5;
+    padding: 0 .75em;
+    position: relative;
+
+    &:active, &:hover, &.active {
+      color: $white-brown;
+      opacity: 1;
+    }
+    i:after {
+      content: '';
+      width: 0;
+      display: block;
+      position: absolute;
+      left: .65em;
+      bottom: -1.2em;
+      //margin-left: 0.5em;
+      border: solid 0.75em transparent;
+      border-top-width: 0;
+    }
+    &.active i:after {
+      border-bottom-color: $white-brown;
+    }
+  }
+}
+
+
+strong {
+  font-weight: 900;
+}
