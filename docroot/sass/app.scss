@@ -82,9 +82,9 @@ nav {
   }
 
   a {
-    font-size: emCalc(22px);
+    font-size: emCalc(18px);
     color: $white-brown;
-    margin: 0 30%;
+    margin: 0 .5em;
     opacity: .5;
     position: relative;
 
@@ -128,12 +128,18 @@ footer {
   }
 }
 
+@media (min-width: 420px) {
+  nav a {
+    font-size: emCalc(22px);
+    margin: 0 .75em;
+  }
+}
+
 @media (min-width: 600px) {
   nav {
     margin-bottom: emCalc(30px);
     margin-top: emCalc(48px);
     a {
-      margin: 0 .75em;
       font-size: emCalc(30px);
     }
   }

@@ -2440,9 +2440,9 @@ nav ul li {
 }
 /* line 84, ../sass/app.scss */
 nav a {
-  font-size: 1.375em;
+  font-size: 1.125em;
   color: #fff8f1;
-  margin: 0 30%;
+  margin: 0 .5em;
   opacity: .5;
   position: relative;
 }
@@ -2492,25 +2492,31 @@ footer .tel:before {
   opacity: .5;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 420px) {
   /* line 132, ../sass/app.scss */
+  nav a {
+    font-size: 1.375em;
+    margin: 0 .75em;
+  }
+}
+@media (min-width: 600px) {
+  /* line 139, ../sass/app.scss */
   nav {
     margin-bottom: 1.875em;
     margin-top: 3em;
   }
-  /* line 135, ../sass/app.scss */
+  /* line 142, ../sass/app.scss */
   nav a {
-    margin: 0 .75em;
     font-size: 1.875em;
   }
 }
 @media (min-width: 1000px) {
-  /* line 143, ../sass/app.scss */
+  /* line 149, ../sass/app.scss */
   nav {
     margin-bottom: 2.5em;
     margin-top: 8em;
   }
-  /* line 146, ../sass/app.scss */
+  /* line 152, ../sass/app.scss */
   nav a {
     font-size: 2.25em;
   }
