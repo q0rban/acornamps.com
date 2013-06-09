@@ -2398,8 +2398,8 @@ blockquote p {
 }
 /* line 49, ../sass/app.scss */
 * {
-  transition: all 1s;
-  -webkit-transition: all 1s;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
 }
 
 /* line 54, ../sass/app.scss */
@@ -2425,8 +2425,8 @@ div.row.content {
 
 /* line 71, ../sass/app.scss */
 nav {
-  transition: none;
   -webkit-transition: none;
+  transition: none;
   margin-bottom: 1.75em;
 }
 /* line 76, ../sass/app.scss */
@@ -2440,62 +2440,68 @@ nav ul li {
 /* line 83, ../sass/app.scss */
 nav a {
   font-size: 1.5em;
-  transition: 1s ease-in;
   color: #fff8f1;
   opacity: .5;
   margin: 0 .75em;
   position: relative;
 }
-/* line 91, ../sass/app.scss */
+/* line 90, ../sass/app.scss */
 nav a:active, nav a:hover, nav a.active {
   color: #fff8f1;
   opacity: 1;
 }
-/* line 95, ../sass/app.scss */
+/* line 94, ../sass/app.scss */
 nav a i.icon-caret-up {
   display: block;
   position: absolute;
   text-align: center;
   top: .45em;
+  left: -0.05em;
   font-size: 2.5em;
 }
 
 /* line 105, ../sass/app.scss */
 footer {
+  margin-top: 1em;
   text-align: center;
-  color: #ccc6c1;
+  opacity: .7;
+  color: #fff8f1;
 }
-/* line 108, ../sass/app.scss */
+/* line 109, ../sass/app.scss */
+footer:hover {
+  opacity: 1;
+}
+/* line 113, ../sass/app.scss */
 footer .vcard {
   border: 0;
 }
-/* line 111, ../sass/app.scss */
+/* line 116, ../sass/app.scss */
 footer .vcard .fn {
   display: none;
 }
-/* line 114, ../sass/app.scss */
+/* line 119, ../sass/app.scss */
 footer .tel {
   white-space: nowrap;
 }
 
 @media (min-width: 600px) {
-  /* line 120, ../sass/app.scss */
+  /* line 125, ../sass/app.scss */
   nav {
     margin-bottom: 1.875em;
     margin-top: 3em;
   }
-  /* line 123, ../sass/app.scss */
+  /* line 128, ../sass/app.scss */
   nav a {
     font-size: 1.875em;
   }
 }
 @media (min-width: 1000px) {
-  /* line 130, ../sass/app.scss */
+  /* line 135, ../sass/app.scss */
   nav {
     margin-bottom: 2.5em;
     margin-top: 8em;
   }
-  /* line 133, ../sass/app.scss */
+  /* line 138, ../sass/app.scss */
   nav a {
     font-size: 2.25em;
   }
