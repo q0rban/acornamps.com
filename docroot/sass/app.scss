@@ -46,6 +46,11 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
+* {
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
 html, body {
   background: $dark-brown url(../images/bg-body.jpg);
 }
@@ -60,9 +65,12 @@ strong {
 
 div.row.content {
   background-color: $white-brown;
+  padding: 1.5em 5%;
 }
 
 nav {
+  transition: none;
+  -webkit-transition: none;
   margin-bottom: emCalc(28px);
 
   ul {
@@ -77,26 +85,19 @@ nav {
     transition: 1s ease-in;
     color: $white-brown;
     opacity: .5;
-    padding: 0 .75em;
+    margin: 0 .75em;
     position: relative;
 
     &:active, &:hover, &.active {
       color: $white-brown;
       opacity: 1;
     }
-    i:after {
-      content: '';
-      width: 0;
+    i.icon-caret-up {
       display: block;
       position: absolute;
-      left: .65em;
-      bottom: -1.2em;
-      //margin-left: 0.5em;
-      border: solid 0.75em transparent;
-      border-top-width: 0;
-    }
-    &.active i:after {
-      border-bottom-color: $white-brown;
+      text-align: center;
+      top: .45em;
+      font-size: 2.5em;
     }
   }
 }
@@ -109,6 +110,9 @@ footer {
   }
   .vcard .fn {
     display: none;
+  }
+  .tel {
+    white-space: nowrap;
   }
 }
 

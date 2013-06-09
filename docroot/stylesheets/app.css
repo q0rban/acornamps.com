@@ -2397,99 +2397,105 @@ blockquote p {
   }
 }
 /* line 49, ../sass/app.scss */
+* {
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+/* line 54, ../sass/app.scss */
 html, body {
   background: #261b18 url(../images/bg-body.jpg);
 }
 
-/* line 53, ../sass/app.scss */
+/* line 58, ../sass/app.scss */
 body {
   padding: 1em 2%;
 }
 
-/* line 57, ../sass/app.scss */
+/* line 62, ../sass/app.scss */
 strong {
   font-weight: 900;
 }
 
-/* line 61, ../sass/app.scss */
+/* line 66, ../sass/app.scss */
 div.row.content {
   background-color: #fff8f1;
+  padding: 1.5em 5%;
 }
 
-/* line 65, ../sass/app.scss */
+/* line 71, ../sass/app.scss */
 nav {
+  transition: none;
+  -webkit-transition: none;
   margin-bottom: 1.75em;
 }
-/* line 68, ../sass/app.scss */
+/* line 76, ../sass/app.scss */
 nav ul {
   text-align: center;
 }
-/* line 70, ../sass/app.scss */
+/* line 78, ../sass/app.scss */
 nav ul li {
   display: inline-block;
 }
-/* line 75, ../sass/app.scss */
+/* line 83, ../sass/app.scss */
 nav a {
   font-size: 1.5em;
   transition: 1s ease-in;
   color: #fff8f1;
   opacity: .5;
-  padding: 0 .75em;
+  margin: 0 .75em;
   position: relative;
 }
-/* line 83, ../sass/app.scss */
+/* line 91, ../sass/app.scss */
 nav a:active, nav a:hover, nav a.active {
   color: #fff8f1;
   opacity: 1;
 }
-/* line 87, ../sass/app.scss */
-nav a i:after {
-  content: '';
-  width: 0;
+/* line 95, ../sass/app.scss */
+nav a i.icon-caret-up {
   display: block;
   position: absolute;
-  left: .65em;
-  bottom: -1.2em;
-  border: solid 0.75em transparent;
-  border-top-width: 0;
-}
-/* line 98, ../sass/app.scss */
-nav a.active i:after {
-  border-bottom-color: #fff8f1;
+  text-align: center;
+  top: .45em;
+  font-size: 2.5em;
 }
 
-/* line 104, ../sass/app.scss */
+/* line 105, ../sass/app.scss */
 footer {
   text-align: center;
   color: #ccc6c1;
 }
-/* line 107, ../sass/app.scss */
+/* line 108, ../sass/app.scss */
 footer .vcard {
   border: 0;
 }
-/* line 110, ../sass/app.scss */
+/* line 111, ../sass/app.scss */
 footer .vcard .fn {
   display: none;
 }
+/* line 114, ../sass/app.scss */
+footer .tel {
+  white-space: nowrap;
+}
 
 @media (min-width: 600px) {
-  /* line 116, ../sass/app.scss */
+  /* line 120, ../sass/app.scss */
   nav {
     margin-bottom: 1.875em;
     margin-top: 3em;
   }
-  /* line 119, ../sass/app.scss */
+  /* line 123, ../sass/app.scss */
   nav a {
     font-size: 1.875em;
   }
 }
 @media (min-width: 1000px) {
-  /* line 126, ../sass/app.scss */
+  /* line 130, ../sass/app.scss */
   nav {
     margin-bottom: 2.5em;
     margin-top: 8em;
   }
-  /* line 129, ../sass/app.scss */
+  /* line 133, ../sass/app.scss */
   nav a {
     font-size: 2.25em;
   }
