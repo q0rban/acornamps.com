@@ -84,8 +84,8 @@ nav {
   a {
     font-size: emCalc(22px);
     color: $white-brown;
+    margin: 0 30%;
     opacity: .5;
-    margin: 0 .75em;
     position: relative;
 
     &:active, &:hover, &.active {
@@ -133,6 +133,7 @@ footer {
     margin-bottom: emCalc(30px);
     margin-top: emCalc(48px);
     a {
+      margin: 0 .75em;
       font-size: emCalc(30px);
     }
   }
