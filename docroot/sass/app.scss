@@ -146,6 +146,10 @@ footer {
 }
 
 @media (min-width: 1000px) {
+  div.row.content {
+    padding-left: emCalc(48px);
+    padding-right: emCalc(48px);
+  }
   nav {
     margin-bottom: emCalc(40px);
     margin-top: emCalc(128px);

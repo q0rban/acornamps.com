@@ -2512,11 +2512,17 @@ footer .tel:before {
 }
 @media (min-width: 1000px) {
   /* line 149, ../sass/app.scss */
+  div.row.content {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  /* line 153, ../sass/app.scss */
   nav {
     margin-bottom: 2.5em;
     margin-top: 8em;
   }
-  /* line 152, ../sass/app.scss */
+  /* line 156, ../sass/app.scss */
   nav a {
     font-size: 2.25em;
   }
