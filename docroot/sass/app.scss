@@ -103,7 +103,7 @@ nav {
       display: block;
       position: absolute;
       text-align: center;
-      top: .4em;
+      top: .5em;
       left: -0.05em;
       font-size: 2.5em;
     }
@@ -120,18 +120,13 @@ footer {
   color: $white-brown;
   .vcard {
     border: 0;
+    line-height: 1.5;
   }
   .vcard .fn {
     display: none;
   }
   .tel {
-    margin-left: .5em;
-    white-space: nowrap;
-    &:before {
-      content: '|';
-      padding-right: .5em;
-      opacity: .5;
-    }
+    display: block;
   }
 }
 
@@ -139,6 +134,19 @@ footer {
   nav a {
     font-size: emCalc(22px);
     margin: 0 .75em;
+    i.icon-caret-up {
+      top: .4em;
+    }
+  }
+
+  footer .tel {
+    margin-left: .5em;
+    display: inline;
+    &:before {
+      content: '|';
+      padding-right: .5em;
+      opacity: .5;
+    }
   }
 }
 
@@ -161,7 +169,7 @@ footer {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
   div.row.content {
     padding: emCalc(84px) emCalc(96px);
   }

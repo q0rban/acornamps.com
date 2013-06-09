@@ -2465,7 +2465,7 @@ nav a i.icon-caret-up {
   display: block;
   position: absolute;
   text-align: center;
-  top: .4em;
+  top: .5em;
   left: -0.05em;
   font-size: 2.5em;
 }
@@ -2484,67 +2484,77 @@ footer:hover {
 /* line 121, ../sass/app.scss */
 footer .vcard {
   border: 0;
+  line-height: 1.5;
 }
-/* line 124, ../sass/app.scss */
+/* line 125, ../sass/app.scss */
 footer .vcard .fn {
   display: none;
 }
-/* line 127, ../sass/app.scss */
+/* line 128, ../sass/app.scss */
 footer .tel {
-  margin-left: .5em;
-  white-space: nowrap;
-}
-/* line 130, ../sass/app.scss */
-footer .tel:before {
-  content: '|';
-  padding-right: .5em;
-  opacity: .5;
+  display: block;
 }
 
 @media (min-width: 420px) {
-  /* line 139, ../sass/app.scss */
+  /* line 134, ../sass/app.scss */
   nav a {
     font-size: 1.375em;
     margin: 0 .75em;
   }
+  /* line 137, ../sass/app.scss */
+  nav a i.icon-caret-up {
+    top: .4em;
+  }
+
+  /* line 142, ../sass/app.scss */
+  footer .tel {
+    margin-left: .5em;
+    display: inline;
+  }
+  /* line 145, ../sass/app.scss */
+  footer .tel:before {
+    content: '|';
+    padding-right: .5em;
+    opacity: .5;
+  }
 }
 @media (min-width: 600px) {
-  /* line 146, ../sass/app.scss */
+  /* line 154, ../sass/app.scss */
   .logo {
     margin-bottom: 1.25em;
   }
-  /* line 148, ../sass/app.scss */
+  /* line 156, ../sass/app.scss */
   .logo i {
     padding-right: 0.625em;
   }
 
-  /* line 152, ../sass/app.scss */
+  /* line 160, ../sass/app.scss */
   div.row.content {
     padding: 3em 3em 1.875em;
   }
 
-  /* line 155, ../sass/app.scss */
+  /* line 163, ../sass/app.scss */
   nav {
     margin-bottom: 1.875em;
     margin-top: 3em;
   }
-  /* line 158, ../sass/app.scss */
+  /* line 166, ../sass/app.scss */
   nav a {
     font-size: 1.875em;
   }
 }
-@media (min-width: 1000px) {
-  /* line 165, ../sass/app.scss */
+@media (min-width: 768px) {
+  /* line 173, ../sass/app.scss */
   div.row.content {
     padding: 5.25em 6em;
   }
 
-  /* line 168, ../sass/app.scss */
+  /* line 176, ../sass/app.scss */
   nav {
     margin-bottom: 2.5em;
     margin-top: 8em;
   }
-  /* line 171, ../sass/app.scss */
+  /* line 179, ../sass/app.scss */
   nav a {
     font-size: 2.25em;
   }
