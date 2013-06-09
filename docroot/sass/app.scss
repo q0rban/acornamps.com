@@ -69,6 +69,14 @@ div.row.content {
   padding: 1.5em 5%;
 }
 
+.logo {
+  text-align: center;
+  i {
+    font-size: 2.5em;
+    padding-right: emCalc(10px);
+  }
+}
+
 nav {
   margin-bottom: emCalc(20px);
 
@@ -80,8 +88,8 @@ nav {
   }
 
   a {
-    -webkit-transition: font-size 0;
-    transition: font-size 0;
+    -webkit-transition: font-size 0s;
+    transition: font-size 0s;
     font-size: emCalc(18px);
     color: $white-brown;
     margin: 0 .5em;
@@ -136,6 +144,12 @@ footer {
 }
 
 @media (min-width: 600px) {
+  .logo {
+    margin-bottom: emCalc(20px);
+  }
+  div.row.content {
+    padding: emCalc(48px) emCalc(48px) emCalc(30px);
+  }
   nav {
     margin-bottom: emCalc(30px);
     margin-top: emCalc(48px);
@@ -147,8 +161,7 @@ footer {
 
 @media (min-width: 1000px) {
   div.row.content {
-    padding-left: emCalc(48px);
-    padding-right: emCalc(48px);
+    padding: emCalc(84px) emCalc(96px);
   }
   nav {
     margin-bottom: emCalc(40px);
