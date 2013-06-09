@@ -430,7 +430,7 @@ body {
 /* line 249, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.1/scss/foundation/components/_global.scss */
 body {
   background: #fff8f1;
-  color: #261b18;
+  color: #471200;
   padding: 0;
   margin: 0;
   font-family: "Titillium Web", sans-serif;
@@ -1962,14 +1962,14 @@ th.hide-for-touch {
 }
 /* line 110, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.1/scss/foundation/components/_type.scss */
 p.lead {
-  font-size: 1.21875em;
+  font-size: 1.31875em;
   line-height: 1.6;
 }
 
 /* line 115, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.1/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #845e53;
+  color: #c92200;
   font-weight: 300;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
@@ -2022,7 +2022,7 @@ a img {
 p {
   font-family: inherit;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1.6;
   margin-bottom: 1.25em;
   text-rendering: optimizeLegibility;
@@ -2040,7 +2040,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Titillium Web", sans-serif;
   font-weight: 900;
   font-style: normal;
-  color: #261b18;
+  color: #300800;
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
@@ -2049,7 +2049,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 191, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.1/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #845e53;
+  color: #c92200;
   line-height: 0;
 }
 
@@ -2125,7 +2125,7 @@ code {
 ul,
 ol,
 dl {
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1.6;
   margin-bottom: 1.25em;
   list-style-position: outside;
@@ -2192,7 +2192,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #261b18;
+  color: #471200;
   border-bottom: 1px dotted #dddddd;
   cursor: help;
 }
@@ -2213,7 +2213,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125em;
-  color: #65473f;
+  color: #961900;
 }
 /* line 319, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.1/scss/foundation/components/_type.scss */
 blockquote cite:before {
@@ -2222,14 +2222,14 @@ blockquote cite:before {
 /* line 324, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.1/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #65473f;
+  color: #961900;
 }
 
 /* line 330, ../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.2.1/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #845e53;
+  color: #c92200;
 }
 
 /* Microformats */
@@ -2404,7 +2404,7 @@ blockquote p {
 
 /* line 54, ../sass/app.scss */
 html, body {
-  background: #261b18 url(../images/bg-body.jpg);
+  background: #300800 url(../images/bg-body.jpg);
 }
 
 /* line 58, ../sass/app.scss */
@@ -2415,29 +2415,30 @@ body {
 /* line 62, ../sass/app.scss */
 strong {
   font-weight: 900;
+  font-color: #300800;
 }
 
-/* line 66, ../sass/app.scss */
+/* line 67, ../sass/app.scss */
 div.row.content {
   background-color: #fff8f1;
   padding: 1.5em 5%;
 }
 
-/* line 71, ../sass/app.scss */
+/* line 72, ../sass/app.scss */
 nav {
   -webkit-transition: none;
   transition: none;
   margin-bottom: 1.75em;
 }
-/* line 76, ../sass/app.scss */
+/* line 77, ../sass/app.scss */
 nav ul {
   text-align: center;
 }
-/* line 78, ../sass/app.scss */
+/* line 79, ../sass/app.scss */
 nav ul li {
   display: inline-block;
 }
-/* line 83, ../sass/app.scss */
+/* line 84, ../sass/app.scss */
 nav a {
   font-size: 1.5em;
   color: #fff8f1;
@@ -2445,12 +2446,12 @@ nav a {
   margin: 0 .75em;
   position: relative;
 }
-/* line 90, ../sass/app.scss */
+/* line 91, ../sass/app.scss */
 nav a:active, nav a:hover, nav a.active {
   color: #fff8f1;
   opacity: 1;
 }
-/* line 94, ../sass/app.scss */
+/* line 95, ../sass/app.scss */
 nav a i.icon-caret-up {
   display: block;
   position: absolute;
@@ -2460,48 +2461,55 @@ nav a i.icon-caret-up {
   font-size: 2.5em;
 }
 
-/* line 105, ../sass/app.scss */
+/* line 106, ../sass/app.scss */
 footer {
   margin-top: 1em;
   text-align: center;
   opacity: .7;
   color: #fff8f1;
 }
-/* line 109, ../sass/app.scss */
+/* line 110, ../sass/app.scss */
 footer:hover {
   opacity: 1;
 }
-/* line 113, ../sass/app.scss */
+/* line 114, ../sass/app.scss */
 footer .vcard {
   border: 0;
 }
-/* line 116, ../sass/app.scss */
+/* line 117, ../sass/app.scss */
 footer .vcard .fn {
   display: none;
 }
-/* line 119, ../sass/app.scss */
+/* line 120, ../sass/app.scss */
 footer .tel {
+  margin-left: .5em;
   white-space: nowrap;
+}
+/* line 123, ../sass/app.scss */
+footer .tel:before {
+  content: '|';
+  padding-right: .5em;
+  opacity: .5;
 }
 
 @media (min-width: 600px) {
-  /* line 125, ../sass/app.scss */
+  /* line 132, ../sass/app.scss */
   nav {
     margin-bottom: 1.875em;
     margin-top: 3em;
   }
-  /* line 128, ../sass/app.scss */
+  /* line 135, ../sass/app.scss */
   nav a {
     font-size: 1.875em;
   }
 }
 @media (min-width: 1000px) {
-  /* line 135, ../sass/app.scss */
+  /* line 142, ../sass/app.scss */
   nav {
     margin-bottom: 2.5em;
     margin-top: 8em;
   }
-  /* line 138, ../sass/app.scss */
+  /* line 145, ../sass/app.scss */
   nav a {
     font-size: 2.25em;
   }

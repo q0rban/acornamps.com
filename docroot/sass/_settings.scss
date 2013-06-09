@@ -28,11 +28,12 @@ $em-base: 16px !default;
 
 $default-float: left;
 
-$dark-brown: #261b18;
+$dark-brown: #300800;
+$brown: #471200;
 $white-brown: #fff8f1;
 $white-brown2: #ccc6c1;
 $body-bg: $white-brown;
-$body-font-color: $dark-brown;
+$body-font-color: $brown;
 $body-font-family: 'Titillium Web', sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -174,7 +175,7 @@ $header-font-color: $dark-brown;
 
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: normal;
-// $paragraph-font-size: 1em;
+$paragraph-font-size: 1.1em;
 // $paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: emCalc(20px);
 // $paragraph-aside-font-size: emCalc(14px);

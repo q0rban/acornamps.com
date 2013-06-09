@@ -61,6 +61,7 @@ body {
 
 strong {
   font-weight: 900;
+  font-color: $header-font-color;
 }
 
 div.row.content {
@@ -117,7 +118,13 @@ footer {
     display: none;
   }
   .tel {
+    margin-left: .5em;
     white-space: nowrap;
+    &:before {
+      content: '|';
+      padding-right: .5em;
+      opacity: .5;
+    }
   }
 }
 
