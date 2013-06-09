@@ -2426,20 +2426,20 @@ div.row.content {
 
 /* line 72, ../sass/app.scss */
 nav {
-  -webkit-transition: none;
-  transition: none;
   margin-bottom: 1.25em;
 }
-/* line 77, ../sass/app.scss */
+/* line 75, ../sass/app.scss */
 nav ul {
   text-align: center;
 }
-/* line 79, ../sass/app.scss */
+/* line 77, ../sass/app.scss */
 nav ul li {
   display: inline-block;
 }
-/* line 84, ../sass/app.scss */
+/* line 82, ../sass/app.scss */
 nav a {
+  -webkit-transition: font-size 0;
+  transition: font-size 0;
   font-size: 1.125em;
   color: #fff8f1;
   margin: 0 .5em;
