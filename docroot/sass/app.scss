@@ -5,16 +5,16 @@
 @import "normalize";
 
 // Comment out this import if you are customizing you imports below
-@import "foundation";
+//@import "foundation";
 
 // Import specific parts of Foundation by commenting the import "foundation"
 // and uncommenting what you want below. You must uncomment the following if customizing
 
-// @import "foundation/components/global"; // *always required
-// @import "foundation/components/grid";
-// @import "foundation/components/visibility";
-// @import "foundation/components/block-grid";
-// @import "foundation/components/type";
+@import "foundation/components/global"; // *always required
+@import "foundation/components/grid";
+@import "foundation/components/visibility";
+@import "foundation/components/block-grid";
+@import "foundation/components/type";
 // @import "foundation/components/buttons";
 // @import "foundation/components/forms"; // *requires components/buttons
 // @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
@@ -50,13 +50,21 @@ html, body {
   background: $dark-brown url(../images/bg-body.jpg);
 }
 
-div.row {
+body {
+  padding: 1em 2%;
+}
+
+strong {
+  font-weight: 900;
+}
+
+div.row.content {
   background-color: $white-brown;
 }
 
 nav {
-  margin-top: emCalc(128px);
-  margin-bottom: emCalc(40px);
+  margin-bottom: emCalc(28px);
+
   ul {
     text-align: center;
     li {
@@ -65,8 +73,8 @@ nav {
   }
 
   a {
+    font-size: emCalc(24px);
     transition: 1s ease-in;
-    font-size: emCalc(36px);
     color: $white-brown;
     opacity: .5;
     padding: 0 .75em;
@@ -93,7 +101,33 @@ nav {
   }
 }
 
+footer {
+  text-align: center;
+  color: $white-brown2;
+  .vcard {
+    border: 0;
+  }
+  .vcard .fn {
+    display: none;
+  }
+}
 
-strong {
-  font-weight: 900;
+@media (min-width: 600px) {
+  nav {
+    margin-bottom: emCalc(30px);
+    margin-top: emCalc(48px);
+    a {
+      font-size: emCalc(30px);
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  nav {
+    margin-bottom: emCalc(40px);
+    margin-top: emCalc(128px);
+    a {
+      font-size: emCalc(36px);
+    }
+  }
 }

@@ -1,7 +1,7 @@
 3.2.1 (Media Mark)
-dbec16b5d1868252063caa1e1a112b084637d183
+d496fbd75815498343b23d5efc30104b49da8eee
 o:Sass::Tree::RootNode
-:@template"J//
+:@template"b//
 // Foundation Variables
 //
 
@@ -33,6 +33,7 @@ $default-float: left;
 
 $dark-brown: #261b18;
 $white-brown: #fff8f1;
+$white-brown2: #ccc6c1;
 $body-bg: $white-brown;
 $body-font-color: $dark-brown;
 $body-font-family: 'Titillium Web', sans-serif;
@@ -1273,7 +1274,7 @@ $header-font-color: $dark-brown;
 
 // $topbar-sticky-class:                  ".sticky";
 :@options{ :
-@linei:@has_childrenT:@children[Äo:Sass::Tree::CommentNode
+@linei:@has_childrenT:@children[Åo:Sass::Tree::CommentNode
 :
 @type:silent;@:@value["%/*
  * Foundation Variables
@@ -1313,41 +1314,42 @@ times:@operand2o;;"1em;@;i;[ ;i;["em:@operand1o;
 alphai:
 greeni ;i$;
 [ o;;"white-brown;@;0;o;%	;@;0;i%;&{	;'iÒ;(iˇ;)i;*i¯;i%;
-[ o;;"body-bg;@;0;o;	;"white-brown;"white_brown;@;i&;i&;
-[ o;;"body-font-color;@;0;o;	;"dark-brown;"dark_brown;@;i';i';
+[ o;;"white-brown2;@;0;o;%	;@;0;i&;&{	;'i¡;(iÃ;)i;*i∆;i&;
+[ o;;"body-bg;@;0;o;	;"white-brown;"white_brown;@;i';i';
+[ o;;"body-font-color;@;0;o;	;"dark-brown;"dark_brown;@;i(;i(;
 [ o;;"body-font-family;@;0;o:Sass::Script::List	:@separator:
-comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;i(;i(;i(;
+comma;@;[o;#	;:string;@;"Titillium Web;i)o;#	;;$;@;"sans-serif;i);i);i);
 [ o;
 ;;;@;["B/* $body-font-weight: normal;
- * $body-font-style: normal; */;i);
+ * $body-font-style: normal; */;i*;
 [ o;
-;;;@;["/* Font-smoothing */;i,;
+;;;@;["/* Font-smoothing */;i-;
 [ o;
-;;;@;["(/* $font-smoothing: antialiased; */;i.;
+;;;@;["(/* $font-smoothing: antialiased; */;i/;
 [ o;
-;;;@;[""/* Text direction settings */;i0;
+;;;@;[""/* Text direction settings */;i1;
 [ o;
-;;;@;[" /* $text-direction: ltr; */;i2;
+;;;@;[" /* $text-direction: ltr; */;i3;
 [ o;
-;;;@;["/* Colors */;i4;
-[ o;;"primary-color;@;0;o;%	;@;0;i6;&{	;'iµ;(i ;)i;*i∆;i6;
+;;;@;["/* Colors */;i5;
+[ o;;"primary-color;@;0;o;%	;@;0;i7;&{	;'iµ;(i ;)i;*i∆;i7;
 [ o;
 ;;;@;["[/* $secondary-color: #e9e9e9;
  * $alert-color: #c60f13;
- * $success-color: #5da423; */;i7;
+ * $success-color: #5da423; */;i8;
 [ o;
-;;;@;["G/* Make sure border radius matches unless we want it different. */;i;;
+;;;@;["G/* Make sure border radius matches unless we want it different. */;i<;
 [ o;
 ;;;@;[";/* $global-radius: 3px;
- * $global-rounded: 1000px; */;i=;
+ * $global-rounded: 1000px; */;i>;
 [ o;
-;;;@;["4/* Inset shadow shiny edges and depressions. */;i@;
+;;;@;["4/* Inset shadow shiny edges and depressions. */;iA;
 [ o;
 ;;;@;["x/* $shiny-edge-size: 0 1px 0;
  * $shiny-edge-color: rgba(#fff, .5);
- * $shiny-edge-active-color: rgba(#000, .2); */;iB;
+ * $shiny-edge-active-color: rgba(#000, .2); */;iC;
 [ o;
-;;;@;["L/* Control whether or not CSS classes come through in the CSS files. */;iF;
+;;;@;["L/* Control whether or not CSS classes come through in the CSS files. */;iG;
 [ o;
 ;;;@;["/* $include-html-classes: true;
  * $include-print-styles: true;
@@ -1372,91 +1374,91 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $include-html-pricing-classes: $include-html-classes;
  * $include-html-progress-classes: $include-html-classes;
  * $include-html-magellan-classes: $include-html-classes;
- * $include-html-tooltip-classes: $include-html-classes; */;iH;
+ * $include-html-tooltip-classes: $include-html-classes; */;iI;
 [ o;
-;;;@;["/* Media Queries */;ia;
+;;;@;["/* Media Queries */;ib;
 [ o;
 ;;;@;["U/* $small-screen: 768px;
  * $medium-screen: 1280px;
- * $large-screen: 1440px; */;ic;
+ * $large-screen: 1440px; */;id;
 [ o;
 ;;;@;["G/* $screen: "only screen";
  * $small: "only screen and (min-width: #{$small-screen})";
  * $medium: "only screen and (min-width: #{$medium-screen})";
  * $large: "only screen and (min-width: #{$large-screen})";
  * $landscape: "only screen and (orientation: landscape)";
- * $portrait: "only screen and (orientation: portrait)"; */;ig;
+ * $portrait: "only screen and (orientation: portrait)"; */;ih;
 [ o;
-;;;@;["/*// Cursors */;in;
+;;;@;["/*// Cursors */;io;
 [ o;
-;;;@;["/*Custom use example -> $cursor-default-value: url(http://cursors-site.net/path/to/custom/cursor/default.cur),progress; */;ip;
+;;;@;["/*Custom use example -> $cursor-default-value: url(http://cursors-site.net/path/to/custom/cursor/default.cur),progress; */;iq;
 [ o;
 ;;;@;["î/* $cursor-crosshair-value: "crosshair";
  * $cursor-default-value: "default";
  * $cursor-pointer-value: "pointer";
- * $cursor-help-value: "help"; */;ir;
+ * $cursor-help-value: "help"; */;is;
 [ o;
 ;;;@;["/*
  * Grid Variables
- * */;iw;
+ * */;ix;
 [ o;;"row-width;@;0;o:Sass::Script::Funcall;"emCalc;[o;;"
-752px;@;i;[ ;i{;["px:@keywords{ ;@;i{;"0;i{;
-[ o;;"column-gutter;@;0;o;/;"emCalc;[o;;"	18px;@;i;[ ;i|;["px;0{ ;@;i|;"0;i|;
+752px;@;i;[ ;i|;["px:@keywords{ ;@;i|;"0;i|;
+[ o;;"column-gutter;@;0;o;/;"emCalc;[o;;"	18px;@;i;[ ;i};["px;0{ ;@;i};"0;i};
 [ o;
-;;;@;["/* $total-columns: 12; */;i};
+;;;@;["/* $total-columns: 12; */;i~;
 [ o;
 ;;;@;["%/*
  * Block Grid Variables
- * */;i;
+ * */;i{;
 [ o;
-;;;@;["8/* Maximum number of block grid elements per row */;i~;
+;;;@;["8/* Maximum number of block grid elements per row */;i;
 [ o;
 ;;;@;["R/* $block-grid-elements: 12;
- * $block-grid-default-spacing: emCalc(20px); */;iÄ;
+ * $block-grid-default-spacing: emCalc(20px); */;iÅ;
 [ o;
-;;;@;["_/* Enables media queries for block-grid classes. Set to false if writing semantic HTML. */;iÉ;
+;;;@;["_/* Enables media queries for block-grid classes. Set to false if writing semantic HTML. */;iÑ;
 [ o;
-;;;@;["+/* $block-grid-media-queries: true; */;iÖ;
+;;;@;["+/* $block-grid-media-queries: true; */;iÜ;
 [ o;
 ;;;@;["%/*
  * Typography Variables
- * */;iá;
+ * */;ià;
 [ o;
-;;;@;["/* Heading font styles */;iã;
-[ o;;"header-font-family;@;0;o;+	;,;-;@;[o;#	;;.;@;"Titillium Web;iço;#	;;$;@;"sans-serif;iç;iç;iç;
-[ o;;"header-font-weight;@;0;o;;"900;@;iÑ;[ ;ié;[ ;ié;
+;;;@;["/* Heading font styles */;iå;
+[ o;;"header-font-family;@;0;o;+	;,;-;@;[o;#	;;.;@;"Titillium Web;iéo;#	;;$;@;"sans-serif;ié;ié;ié;
+[ o;;"header-font-weight;@;0;o;;"900;@;iÑ;[ ;iè;[ ;iè;
 [ o;
-;;;@;["&/* $header-font-style: normal; */;iè;
-[ o;;"header-font-color;@;0;o;	;"dark-brown;"dark_brown;@;iê;iê;
+;;;@;["&/* $header-font-style: normal; */;iê;
+[ o;;"header-font-color;@;0;o;	;"dark-brown;"dark_brown;@;ië;ië;
 [ o;
 ;;;@;["ã/* $header-line-height: 1.4;
  * $header-top-margin: .2em;
  * $header-bottom-margin: .5em;
- * $header-text-rendering: optimizeLegibility; */;ië;
+ * $header-text-rendering: optimizeLegibility; */;ií;
 [ o;
-;;;@;["/* Heading font sizes */;iñ;
+;;;@;["/* Heading font sizes */;ió;
 [ o;
 ;;;@;["π/* $h1-font-size: emCalc(44px);
  * $h2-font-size: emCalc(37px);
  * $h3-font-size: emCalc(27px);
  * $h4-font-size: emCalc(23px);
  * $h5-font-size: emCalc(18px);
- * $h6-font-size: 1em; */;iò;
+ * $h6-font-size: 1em; */;iô;
 [ o;
-;;;@;["/* Subheaders */;iü;
+;;;@;["/* Subheaders */;i†;
 [ o;
 ;;;@;["¡/* $subheader-line-height: 1.4;
  * $subheader-font-color: lighten($header-font-color, 30%);
  * $subheader-font-weight: 300;
  * $subheader-top-margin: .2em;
- * $subheader-bottom-margin: .5em; */;i°;
+ * $subheader-bottom-margin: .5em; */;i¢;
 [ o;
-;;;@;["/* <small> styling */;iß;
+;;;@;["/* <small> styling */;i®;
 [ o;
 ;;;@;["Y/* $small-font-size: 60%;
- * $small-font-color: lighten($header-font-color, 30%); */;i©;
+ * $small-font-color: lighten($header-font-color, 30%); */;i™;
 [ o;
-;;;@;["/* Paragraphs */;i¨;
+;;;@;["/* Paragraphs */;i≠;
 [ o;
 ;;;@;["./* $paragraph-font-family: inherit;
  * $paragraph-font-weight: normal;
@@ -1465,87 +1467,87 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $paragraph-margin-bottom: emCalc(20px);
  * $paragraph-aside-font-size: emCalc(14px);
  * $paragraph-aside-line-height: 1.35;
- * $paragraph-aside-font-style: italic; */;iÆ;
+ * $paragraph-aside-font-style: italic; */;iØ;
 [ o;
-;;;@;["/* <code> tags */;i∑;
+;;;@;["/* <code> tags */;i∏;
 [ o;
 ;;;@;["ê/* $code-color: darken($alert-color, 15%);
  * $code-font-family: Consolas, 'Liberation Mono', Courier, monospace;
- * $code-font-weight: bold; */;iπ;
+ * $code-font-weight: bold; */;i∫;
 [ o;
-;;;@;["/* Anchors */;iΩ;
+;;;@;["/* Anchors */;iæ;
 [ o;
 ;;;@;["Ñ/* $anchor-text-decoration: none;
  * $anchor-font-color: $primary-color;
- * $anchor-font-color-hover: darken($primary-color, 5%); */;iø;
+ * $anchor-font-color-hover: darken($primary-color, 5%); */;i¿;
 [ o;
-;;;@;["/* <hr> element */;i√;
+;;;@;["/* <hr> element */;iƒ;
 [ o;
 ;;;@;["u/* $hr-border-width: 1px;
  * $hr-border-style: solid;
  * $hr-border-color: #ddd;
- * $hr-margin: emCalc(20px); */;i≈;
+ * $hr-margin: emCalc(20px); */;i∆;
 [ o;
-;;;@;["/* Lists */;i ;
+;;;@;["/* Lists */;iÀ;
 [ o;
 ;;;@;["¯/* $list-style-position: outside;
  * $list-side-margin: emCalc(20px);
  * $list-nested-margin: emCalc(20px);
  * $definition-list-header-weight: bold;
  * $definition-list-header-margin-bottom: .3em;
- * $definition-list-margin-bottom: emCalc(12px); */;iÃ;
+ * $definition-list-margin-bottom: emCalc(12px); */;iÕ;
 [ o;
-;;;@;["/* Blockquotes */;i”;
+;;;@;["/* Blockquotes */;i‘;
 [ o;
 ;;;@;["S/* $blockquote-font-color: lighten($header-font-color, 30%);
  * $blockquote-padding: emCalc(9px) emCalc(20px) 0 emCalc(19px);
  * $blockquote-border: 1px solid #ddd;
  * $blockquote-cite-font-size: emCalc(13px);
  * $blockquote-cite-font-color: lighten($header-font-color, 20%);
- * $blockquote-cite-link-color: $blockquote-cite-font-color; */;i’;
+ * $blockquote-cite-link-color: $blockquote-cite-font-color; */;i÷;
 [ o;
-;;;@;["/* Acronym */;i‹;
+;;;@;["/* Acronym */;i›;
 [ o;
-;;;@;["//* $acronym-underline: 1px dotted #ddd; */;iﬁ;
+;;;@;["//* $acronym-underline: 1px dotted #ddd; */;iﬂ;
 [ o;
-;;;@;["/* Padding and margin */;i‡;
+;;;@;["/* Padding and margin */;i·;
 [ o;
 ;;;@;["g/* $microformat-padding: emCalc(10px) emCalc(12px);
- * $microformat-margin: 0 0 emCalc(20px) 0; */;i‚;
+ * $microformat-margin: 0 0 emCalc(20px) 0; */;i„;
 [ o;
-;;;@;["/* Border styles */;iÂ;
+;;;@;["/* Border styles */;iÊ;
 [ o;
 ;;;@;["s/* $microformat-border-width: 1px;
  * $microformat-border-style: solid;
- * $microformat-border-color: #ddd; */;iÁ;
+ * $microformat-border-color: #ddd; */;iË;
 [ o;
-;;;@;[" /* Full name font styles */;iÎ;
+;;;@;[" /* Full name font styles */;iÏ;
 [ o;
 ;;;@;["e/* $microformat-fullname-font-weight: bold;
- * $microformat-fullname-font-size: emCalc(15px); */;iÌ;
+ * $microformat-fullname-font-size: emCalc(15px); */;iÓ;
 [ o;
-;;;@;["/* Summary font styles */;i;
+;;;@;["/* Summary font styles */;iÒ;
 [ o;
-;;;@;["2/* $microformat-summary-font-weight: bold; */;iÚ;
+;;;@;["2/* $microformat-summary-font-weight: bold; */;iÛ;
 [ o;
-;;;@;["/* <abbr> padding */;iÙ;
+;;;@;["/* <abbr> padding */;iı;
 [ o;
-;;;@;["4/* $microformat-abbr-padding: 0 emCalc(1px); */;iˆ;
+;;;@;["4/* $microformat-abbr-padding: 0 emCalc(1px); */;i˜;
 [ o;
-;;;@;["/* <abbr> font styles */;i¯;
+;;;@;["/* <abbr> font styles */;i˘;
 [ o;
 ;;;@;["[/* $microformat-abbr-font-weight: bold;
- * $microformat-abbr-font-decoration: none; */;i˙;
+ * $microformat-abbr-font-decoration: none; */;i˚;
 [ o;
 ;;;@;["/*
  * Form Variables
- * */;i˝;
+ * */;i˛;
 [ o;
-;;;@;["?/* Base for lots of form spacing and positioning styles */;i;
+;;;@;["?/* Base for lots of form spacing and positioning styles */;i;
 [ o;
-;;;@;["'/* $form-spacing: emCalc(16px); */;i;
+;;;@;["'/* $form-spacing: emCalc(16px); */;i;
 [ o;
-;;;@;["/* Labels */;i;
+;;;@;["/* Labels */;i;
 [ o;
 ;;;@;["ã/* $form-label-pointer: pointer;
  * $form-label-font-size: emCalc(14px);
@@ -1563,23 +1565,23 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $input-border-width: 1px;
  * $input-disabled-bg: #ddd;
  * $input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
- * $input-include-glowing-effect: true; */;i;
+ * $input-include-glowing-effect: true; */;i;
 [ o;
-;;;@;["'/* Fieldset border and spacing. */;i;
+;;;@;["'/* Fieldset border and spacing. */;i;
 [ o;
 ;;;@;["Æ/* $fieldset-border-style: solid;
  * $fieldset-border-width: 1px;
  * $fieldset-border-color: #ddd;
  * $fieldset-padding: emCalc(20px);
- * $fieldset-margin: emCalc(18px) 0; */;i;
+ * $fieldset-margin: emCalc(18px) 0; */;i;
 [ o;
-;;;@;["/* Legends */;i!;
+;;;@;["/* Legends */;i";
 [ o;
 ;;;@;["]/* $legend-bg: #fff;
  * $legend-font-weight: bold;
- * $legend-padding: 0 emCalc(3px); */;i#;
+ * $legend-padding: 0 emCalc(3px); */;i$;
 [ o;
-;;;@;[",/* Prefix and postfix input elements */;i';
+;;;@;[",/* Prefix and postfix input elements */;i(;
 [ o;
 ;;;@;["/* $input-prefix-bg: darken(#fff, 5%);
  * $input-prefix-border-color: darken(#fff, 20%);
@@ -1587,39 +1589,39 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $input-prefix-border-type: solid;
  * $input-prefix-overflow: hidden;
  * $input-prefix-font-color: #333;
- * $input-prefix-font-color-alt: #fff; */;i);
+ * $input-prefix-font-color-alt: #fff; */;i*;
 [ o;
-;;;@;["-/* Error states for inputs and labels */;i1;
+;;;@;["-/* Error states for inputs and labels */;i2;
 [ o;
 ;;;@;["-/* $input-error-message-padding: emCalc(6px) emCalc(4px);
  * $input-error-message-top: -($form-spacing) - emCalc(5px);
  * $input-error-message-font-size: emCalc(12px);
  * $input-error-message-font-weight: bold;
  * $input-error-message-font-color: #fff;
- * $input-error-message-font-color-alt: #333; */;i3;
+ * $input-error-message-font-color-alt: #333; */;i4;
 [ o;
-;;;@;["0/* Glowing effect of inputs when focused */;i:;
+;;;@;["0/* Glowing effect of inputs when focused */;i;;
 [ o;
 ;;;@;["a/* $glowing-effect-fade-time: 0.45s;
- * $glowing-effect-color: $input-focus-border-color; */;i<;
+ * $glowing-effect-color: $input-focus-border-color; */;i=;
 [ o;
 ;;;@;["!/*
  * Button Variables
- * */;i?;
+ * */;i@;
 [ o;
-;;;@;["/* Padding for buttons. */;iC;
+;;;@;["/* Padding for buttons. */;iD;
 [ o;
 ;;;@;["}/* $button-tny: emCalc(7px);
  * $button-sml: emCalc(9px);
  * $button-med: emCalc(12px);
- * $button-lrg: emCalc(16px); */;iE;
+ * $button-lrg: emCalc(16px); */;iF;
 [ o;
-;;;@;["/* Display property. */;iJ;
+;;;@;["/* Display property. */;iK;
 [ o;
 ;;;@;["Q/* $button-display: inline-block;
- * $button-margin-bottom: emCalc(20px); */;iL;
+ * $button-margin-bottom: emCalc(20px); */;iM;
 [ o;
-;;;@;["/* Button text styles. */;iO;
+;;;@;["/* Button text styles. */;iP;
 [ o;
 ;;;@;["*/* $button-font-family: inherit;
  * $button-font-color: #fff;
@@ -1629,229 +1631,229 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $button-font-sml: emCalc(13px);
  * $button-font-lrg: emCalc(20px);
  * $button-font-weight: bold;
- * $button-font-align: center; */;iQ;
+ * $button-font-align: center; */;iR;
 [ o;
-;;;@;["!/* Various hover effects. */;i[;
+;;;@;["!/* Various hover effects. */;i\;
 [ o;
-;;;@;["(/* $button-function-factor: 10%; */;i];
+;;;@;["(/* $button-function-factor: 10%; */;i^;
 [ o;
-;;;@;[" /* Button border styles. */;i_;
+;;;@;[" /* Button border styles. */;i`;
 [ o;
 ;;;@;["ä/* $button-border-width: 1px;
  * $button-border-style: solid;
- * $button-border-color: darken($primary-color, $button-function-factor); */;ia;
+ * $button-border-color: darken($primary-color, $button-function-factor); */;ib;
 [ o;
-;;;@;["+/* Radius used throughout the core. */;ie;
+;;;@;["+/* Radius used throughout the core. */;if;
 [ o;
-;;;@;["*/* $button-radius: $global-radius; */;ig;
+;;;@;["*/* $button-radius: $global-radius; */;ih;
 [ o;
-;;;@;["(/* Opacity for disabled buttons. */;ii;
+;;;@;["(/* Opacity for disabled buttons. */;ij;
 [ o;
-;;;@;[")/* $button-disabled-opacity: 0.6; */;ik;
+;;;@;[")/* $button-disabled-opacity: 0.6; */;il;
 [ o;
 ;;;@;["/*
  * Button Groups
- * */;im;
+ * */;in;
 [ o;
-;;;@;["p/* Sets the margin for the right side by default, and the left margin if right-to-left direction is used */;iq;
+;;;@;["p/* Sets the margin for the right side by default, and the left margin if right-to-left direction is used */;ir;
 [ o;
-;;;@;["5/* $button-bar-margin-opposite: emCalc(10px); */;is;
+;;;@;["5/* $button-bar-margin-opposite: emCalc(10px); */;it;
 [ o;
 ;;;@;["*/*
  * Dropdown Button Variables
- * */;iu;
+ * */;iv;
 [ o;
-;;;@;["//* Color of the pip in dropdown buttons */;iy;
+;;;@;["//* Color of the pip in dropdown buttons */;iz;
 [ o;
 ;;;@;["U/* $dropdown-button-pip-color: #fff;
- * $dropdown-button-pip-color-alt: #333; */;i{;
+ * $dropdown-button-pip-color-alt: #333; */;i|;
 [ o;
-;;;@;[" /* Tiny dropdown buttons */;i~;
+;;;@;[" /* Tiny dropdown buttons */;i;
 [ o;
 ;;;@;["ÿ/* $dropdown-button-padding-tny: $button-tny * 5;
  * $dropdown-button-pip-size-tny: $button-tny;
  * $dropdown-button-pip-right-tny: $button-tny * 2;
- * $dropdown-button-pip-top-tny: -$button-tny / 2 + emCalc(1px); */;iÄ;
+ * $dropdown-button-pip-top-tny: -$button-tny / 2 + emCalc(1px); */;iÅ;
 [ o;
-;;;@;["!/* Small dropdown buttons */;iÖ;
+;;;@;["!/* Small dropdown buttons */;iÜ;
 [ o;
 ;;;@;["ÿ/* $dropdown-button-padding-sml: $button-sml * 5;
  * $dropdown-button-pip-size-sml: $button-sml;
  * $dropdown-button-pip-right-sml: $button-sml * 2;
- * $dropdown-button-pip-top-sml: -$button-sml / 2 + emCalc(1px); */;iá;
+ * $dropdown-button-pip-top-sml: -$button-sml / 2 + emCalc(1px); */;ià;
 [ o;
-;;;@;[""/* Medium dropdown buttons */;iå;
+;;;@;[""/* Medium dropdown buttons */;iç;
 [ o;
 ;;;@;["Ù/* $dropdown-button-padding-med: $button-med * 4 + emCalc(3px);
  * $dropdown-button-pip-size-med: $button-med - emCalc(3px);
  * $dropdown-button-pip-right-med: $button-med * 2;
- * $dropdown-button-pip-top-med: -$button-med / 2 + emCalc(2px); */;ié;
+ * $dropdown-button-pip-top-med: -$button-med / 2 + emCalc(2px); */;iè;
 [ o;
-;;;@;["!/* Large dropdown buttons */;iì;
+;;;@;["!/* Large dropdown buttons */;iî;
 [ o;
 ;;;@;["Ò/* $dropdown-button-padding-lrg: $button-lrg * 4;
  * $dropdown-button-pip-size-lrg: $button-lrg - emCalc(6px);
  * $dropdown-button-pip-right-lrg: $button-lrg + emCalc(12px);
- * $dropdown-button-pip-top-lrg: -$button-lrg / 2 + emCalc(3px); */;iï;
+ * $dropdown-button-pip-top-lrg: -$button-lrg / 2 + emCalc(3px); */;iñ;
 [ o;
 ;;;@;["'/*
  * Split Button Variables
- * */;iö;
+ * */;iõ;
 [ o;
-;;;@;["*/* Shared styles for Split Buttons */;iû;
+;;;@;["*/* Shared styles for Split Buttons */;iü;
 [ o;
 ;;;@;["£/* $split-button-function-factor: 15%;
  * $split-button-pip-color: #fff;
  * $split-button-pip-color-alt: #333;
- * $split-button-active-bg-tint: rgba(0,0,0,0.1); */;i†;
+ * $split-button-active-bg-tint: rgba(0,0,0,0.1); */;i°;
 [ o;
-;;;@;["/* Tiny split buttons */;i•;
+;;;@;["/* Tiny split buttons */;i¶;
 [ o;
 ;;;@;["Ì/* $split-button-padding-tny: $button-tny * 9;
  * $split-button-span-width-tny: $button-tny * 6.5;
  * $split-button-pip-size-tny: $button-tny;
  * $split-button-pip-top-tny: $button-tny * 2;
- * $split-button-pip-left-tny: emCalc(-5px); */;iß;
+ * $split-button-pip-left-tny: emCalc(-5px); */;i®;
 [ o;
-;;;@;["/* Small split buttons */;i≠;
+;;;@;["/* Small split buttons */;iÆ;
 [ o;
 ;;;@;["Ì/* $split-button-padding-sml: $button-sml * 7;
  * $split-button-span-width-sml: $button-sml * 5;
  * $split-button-pip-size-sml: $button-sml;
  * $split-button-pip-top-sml: $button-sml * 1.5;
- * $split-button-pip-left-sml: emCalc(-9px); */;iØ;
+ * $split-button-pip-left-sml: emCalc(-9px); */;i∞;
 [ o;
-;;;@;["/* Medium split buttons */;iµ;
+;;;@;["/* Medium split buttons */;i∂;
 [ o;
 ;;;@;["˝/* $split-button-padding-med: $button-med * 6.4;
  * $split-button-span-width-med: $button-med * 4;
  * $split-button-pip-size-med: $button-med - emCalc(3px);
  * $split-button-pip-top-med: $button-med * 1.5;
- * $split-button-pip-left-med: emCalc(-9px); */;i∑;
+ * $split-button-pip-left-med: emCalc(-9px); */;i∏;
 [ o;
-;;;@;["/* Large split buttons */;iΩ;
+;;;@;["/* Large split buttons */;iæ;
 [ o;
 ;;;@;["/* $split-button-padding-lrg: $button-lrg * 6;
  * $split-button-span-width-lrg: $button-lrg * 3.75;
  * $split-button-pip-size-lrg: $button-lrg - emCalc(6px);
  * $split-button-pip-top-lrg: $button-lrg + emCalc(5px);
- * $split-button-pip-left-lrg: emCalc(-9px); */;iø;
+ * $split-button-pip-left-lrg: emCalc(-9px); */;i¿;
 [ o;
 ;;;@;[" /*
  * Alert Variables
- * */;i≈;
+ * */;i∆;
 [ o;
-;;;@;["/* Alert padding */;i…;
+;;;@;["/* Alert padding */;i ;
 [ o;
 ;;;@;["/* $alert-padding-top:                emCalc(11px);
  * $alert-padding-default-float:      $alert-padding-top;
  * $alert-padding-opposite-direction: $alert-padding-top + emCalc(10px);
- * $alert-padding-bottom:             $alert-padding-top + emCalc(1px); */;iÀ;
+ * $alert-padding-bottom:             $alert-padding-top + emCalc(1px); */;iÃ;
 [ o;
-;;;@;["/* Text style */;i–;
+;;;@;["/* Text style */;i—;
 [ o;
 ;;;@;["”/* $alert-font-weight:                bold;
  * $alert-font-size:                  emCalc(14px);
  * $alert-font-color:                 #fff;
- * $alert-font-color-alt:             darken($secondary-color, 60%); */;i“;
+ * $alert-font-color-alt:             darken($secondary-color, 60%); */;i”;
 [ o;
-;;;@;["/* Hover effect */;i◊;
+;;;@;["/* Hover effect */;iÿ;
 [ o;
-;;;@;["2/* $alert-function-factor:            10%; */;iŸ;
+;;;@;["2/* $alert-function-factor:            10%; */;i⁄;
 [ o;
-;;;@;["/* Border Styles */;i€;
+;;;@;["/* Border Styles */;i‹;
 [ o;
 ;;;@;["‰/* $alert-border-style:               solid;
  * $alert-border-width:               1px;
  * $alert-border-color:               darken($primary-color, $alert-function-factor);
- * $alert-bottom-margin:              emCalc(20px); */;i›;
+ * $alert-bottom-margin:              emCalc(20px); */;iﬁ;
 [ o;
-;;;@;["/* Close Button style */;i‚;
+;;;@;["/* Close Button style */;i„;
 [ o;
 ;;;@;["/* $alert-close-color:                #333;
  * $alert-close-position:             emCalc(5px);
  * $alert-close-font-size:            emCalc(22px);
  * $alert-close-opacity:              0.3;
  * $alert-close-opacity-hover:        0.5;
- * $alert-close-padding:              5px 4px 4px; */;i‰;
+ * $alert-close-padding:              5px 4px 4px; */;iÂ;
 [ o;
-;;;@;["/* Border radius */;iÎ;
+;;;@;["/* Border radius */;iÏ;
 [ o;
-;;;@;["=/* $alert-radius:                     $global-radius; */;iÌ;
+;;;@;["=/* $alert-radius:                     $global-radius; */;iÓ;
 [ o;
 ;;;@;["%/*
  * Breadcrumb Variables
- * */;i;
+ * */;iÒ;
 [ o;
-;;;@;["9/* Background color for the breadcrumb container. */;iÙ;
+;;;@;["9/* Background color for the breadcrumb container. */;iı;
 [ o;
-;;;@;["4/* $crumb-bg: lighten($secondary-color, 5%); */;iˆ;
+;;;@;["4/* $crumb-bg: lighten($secondary-color, 5%); */;i˜;
 [ o;
-;;;@;["*/* Padding around the breadcrumbs. */;i¯;
+;;;@;["*/* Padding around the breadcrumbs. */;i˘;
 [ o;
 ;;;@;["f/* $crumb-padding: emCalc(6px) emCalc(14px) emCalc(9px);
- * $crumb-side-padding: emCalc(12px); */;i˙;
+ * $crumb-side-padding: emCalc(12px); */;i˚;
 [ o;
-;;;@;["/* Border styles. */;i˝;
+;;;@;["/* Border styles. */;i˛;
 [ o;
 ;;;@;["¬/* $crumb-function-factor: 10%;
  * $crumb-border-size: 1px;
  * $crumb-border-style: solid;
  * $crumb-border-color: darken($crumb-bg, $crumb-function-factor);
- * $crumb-radius: $global-radius; */;iˇ;
+ * $crumb-radius: $global-radius; */;i ;
 [ o;
-;;;@;["//* Various text styles for breadcrumbs. */;i;
+;;;@;["//* Various text styles for breadcrumbs. */;i;
 [ o;
 ;;;@;["›/* $crumb-font-size: emCalc(11px);
  * $crumb-font-color: $primary-color;
  * $crumb-font-color-current: #333;
  * $crumb-font-color-unavailable: #999;
  * $crumb-font-transform: uppercase;
- * $crumb-link-decor: underline; */;i;
+ * $crumb-link-decor: underline; */;i;
 [ o;
-;;;@;["$/* Slash between breadcrumbs */;i;
+;;;@;["$/* Slash between breadcrumbs */;i;
 [ o;
 ;;;@;[":/* $crumb-slash-color: #aaa;
- * $crumb-slash: "/"; */;i;
+ * $crumb-slash: "/"; */;i;
 [ o;
 ;;;@;["#/*
  * Clearing Variables
- * */;i;
+ * */;i;
 [ o;
-;;;@;["3/* Background colors for parts of Clearing. */;i;
+;;;@;["3/* Background colors for parts of Clearing. */;i;
 [ o;
 ;;;@;["É/* $clearing-bg: #111;
  * $clearing-caption-bg: $clearing-bg;
  * $clearing-carousel-bg: #111;
- * $clearing-img-bg: $clearing-bg; */;i;
+ * $clearing-img-bg: $clearing-bg; */;i;
 [ o;
-;;;@;["/* Close button */;i;
+;;;@;["/* Close button */;i;
 [ o;
 ;;;@;["F/* $clearing-close-color: #fff;
- * $clearing-close-size: 40px; */;i ;
+ * $clearing-close-size: 40px; */;i!;
 [ o;
-;;;@;["/* Style the arrows */;i#;
+;;;@;["/* Style the arrows */;i$;
 [ o;
 ;;;@;["W/* $clearing-arrow-size: 16px;
- * $clearing-arrow-color: $clearing-close-color; */;i%;
+ * $clearing-arrow-color: $clearing-close-color; */;i&;
 [ o;
-;;;@;["/* Style captions */;i(;
+;;;@;["/* Style captions */;i);
 [ o;
 ;;;@;["W/* $clearing-caption-font-color: #fff;
- * $clearing-caption-padding: 10px 30px; */;i*;
+ * $clearing-caption-padding: 10px 30px; */;i+;
 [ o;
-;;;@;["7/* Make the image and carousel height and style */;i-;
+;;;@;["7/* Make the image and carousel height and style */;i.;
 [ o;
 ;;;@;["Ω/* $clearing-active-img-height: 75%;
  * $clearing-carousel-height: 150px;
  * $clearing-carousel-thumb-width: 175px;
- * $clearing-carousel-thumb-active-border: 4px solid rgb(255,255,255); */;i/;
+ * $clearing-carousel-thumb-active-border: 4px solid rgb(255,255,255); */;i0;
 [ o;
 ;;;@;["&/*
  * Custom Form Variables
- * */;i4;
+ * */;i5;
 [ o;
-;;;@;[")/* Basic form styles input styles */;i8;
+;;;@;[")/* Basic form styles input styles */;i9;
 [ o;
 ;;;@;["3/* $custom-form-border-color: #ccc;
  * $custom-form-border-size: 1px;
@@ -1861,9 +1863,9 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $custom-form-check-color: #222;
  * $custom-form-check-size: 14px;
  * $custom-form-radio-size: 8px;
- * $custom-form-checkbox-radius: 0px; */;i:;
+ * $custom-form-checkbox-radius: 0px; */;i;;
 [ o;
-;;;@;["&/* Custom select form element. */;iD;
+;;;@;["&/* Custom select form element. */;iE;
 [ o;
 ;;;@;["ä/* $custom-select-bg: #fff;
  * $custom-select-fade-to-color: #f3f3f3;
@@ -1873,9 +1875,9 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $custom-select-height: emCalc(13px) + ($form-spacing * 1.5);
  * $custom-select-margin-bottom: emCalc(20px);
  * $custom-select-font-color-selected: #141414;
- * $custom-select-disabled-color: #888; */;iF;
+ * $custom-select-disabled-color: #888; */;iG;
 [ o;
-;;;@;["*/* Custom select dropdown element. */;iP;
+;;;@;["*/* Custom select dropdown element. */;iQ;
 [ o;
 ;;;@;["ü/* $custom-dropdown-height: 200px;
  * $custom-dropdown-bg: #fff;
@@ -1891,36 +1893,36 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $custom-dropdown-list-padding: emCalc(4px);
  * $custom-dropdown-left-padding: emCalc(6px);
  * $custom-dropdown-right-padding: emCalc(38px);
- * $custom-dropdown-list-item-min-height: emCalc(24px); */;iR;
+ * $custom-dropdown-list-item-min-height: emCalc(24px); */;iS;
 [ o;
 ;;;@;["#/*
  * Dropdown Variables
- * */;ib;
+ * */;ic;
 [ o;
-;;;@;["#/* Height and width styles. */;if;
+;;;@;["#/* Height and width styles. */;ig;
 [ o;
 ;;;@;["Å/* $f-dropdown-max-width: 200px;
  * $f-dropdown-height: auto;
  * $f-dropdown-max-height: none;
- * $f-dropdown-margin-top: 2px; */;ih;
+ * $f-dropdown-margin-top: 2px; */;ii;
 [ o;
-;;;@;["/* Background color */;im;
+;;;@;["/* Background color */;in;
 [ o;
-;;;@;[" /* $f-dropdown-bg: #fff; */;io;
+;;;@;[" /* $f-dropdown-bg: #fff; */;ip;
 [ o;
-;;;@;["'/* Border styles for dropdowns. */;iq;
+;;;@;["'/* Border styles for dropdowns. */;ir;
 [ o;
 ;;;@;["}/* $f-dropdown-border-style: solid;
  * $f-dropdown-border-width: 1px;
- * $f-dropdown-border-color: darken(#fff, 20%); */;is;
+ * $f-dropdown-border-color: darken(#fff, 20%); */;it;
 [ o;
-;;;@;["/* Triangle pip. */;iw;
+;;;@;["/* Triangle pip. */;ix;
 [ o;
 ;;;@;["z/* $f-dropdown-triangle-size: 6px;
  * $f-dropdown-triangle-color: #fff;
- * $f-dropdown-triangle-side-offset: 10px; */;iy;
+ * $f-dropdown-triangle-side-offset: 10px; */;iz;
 [ o;
-;;;@;["/* List elements. */;i};
+;;;@;["/* List elements. */;i~;
 [ o;
 ;;;@;["/* $f-dropdown-list-style: none;
  * $f-dropdown-font-color: #555;
@@ -1928,266 +1930,266 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $f-dropdown-list-padding: emCalc(5px) emCalc(10px);
  * $f-dropdown-line-height: emCalc(18px);
  * $f-dropdown-list-hover-bg: #eeeeee;
- * $dropdown-mobile-left: 0; */;i;
+ * $dropdown-mobile-left: 0; */;iÄ;
 [ o;
-;;;@;["0/* When the dropdown has custom content. */;iá;
+;;;@;["0/* When the dropdown has custom content. */;ià;
 [ o;
-;;;@;["5/* $f-dropdown-content-padding: emCalc(20px); */;iâ;
+;;;@;["5/* $f-dropdown-content-padding: emCalc(20px); */;iä;
 [ o;
 ;;;@;["%/*
  * Flex Video Variables
- * */;iã;
+ * */;iå;
 [ o;
-;;;@;["./* Video container padding and margins */;iè;
+;;;@;["./* Video container padding and margins */;iê;
 [ o;
 ;;;@;["~/* $flex-video-padding-top: emCalc(25px);
  * $flex-video-padding-bottom: 67.5%;
- * $flex-video-margin-bottom: emCalc(16px); */;ië;
+ * $flex-video-margin-bottom: emCalc(16px); */;ií;
 [ o;
-;;;@;["$/* Widescreen bottom padding */;iï;
+;;;@;["$/* Widescreen bottom padding */;iñ;
 [ o;
-;;;@;["9/* $flex-video-widescreen-padding-bottom: 57.25%; */;ió;
+;;;@;["9/* $flex-video-widescreen-padding-bottom: 57.25%; */;iò;
 [ o;
 ;;;@;["&/*
  * Inline List Variables
- * */;iô;
+ * */;iö;
 [ o;
-;;;@;["2/* Margins and padding of the inline list. */;iù;
+;;;@;["2/* Margins and padding of the inline list. */;iû;
 [ o;
 ;;;@;["|/* $inline-list-margin-bottom: emCalc(17px) emCalc(-22px );
  * $inline-list-margin: 0 0;
- * $inline-list-padding: 0; */;iü;
+ * $inline-list-padding: 0; */;i†;
 [ o;
-;;;@;["'/* Overflow of the inline list. */;i£;
+;;;@;["'/* Overflow of the inline list. */;i§;
 [ o;
-;;;@;[")/* $inline-list-overflow: hidden; */;i•;
+;;;@;[")/* $inline-list-overflow: hidden; */;i¶;
 [ o;
-;;;@;["/* List items */;iß;
+;;;@;["/* List items */;i®;
 [ o;
-;;;@;["'/* $inline-list-display: block; */;i©;
+;;;@;["'/* $inline-list-display: block; */;i™;
 [ o;
-;;;@;["$/* Elments within list items */;i´;
+;;;@;["$/* Elments within list items */;i¨;
 [ o;
-;;;@;["0/* $inline-list-children-display: block; */;i≠;
+;;;@;["0/* $inline-list-children-display: block; */;iÆ;
 [ o;
 ;;;@;[""/*
  * Joyride Variables
- * */;iØ;
+ * */;i∞;
 [ o;
-;;;@;["/* Joyride styles */;i≥;
+;;;@;["/* Joyride styles */;i¥;
 [ o;
 ;;;@;["ı/* $joyride-tip-bg: rgb(0,0,0);
  * $joyride-tip-default-width: 300px;
  * $joyride-tip-padding: emCalc(18px) emCalc(20px) emCalc(24px);
  * $joyride-tip-border: solid 1px #555;
  * $joyride-tip-radius: 4px;
- * $joyride-tip-position-offset: 22px; */;iµ;
+ * $joyride-tip-position-offset: 22px; */;i∂;
 [ o;
-;;;@;["/* Tip font styles */;iº;
+;;;@;["/* Tip font styles */;iΩ;
 [ o;
 ;;;@;["w/* $joyride-tip-font-color: #fff;
  * $joyride-tip-font-size: emCalc(14px);
- * $joyride-tip-header-weight: bold; */;iæ;
+ * $joyride-tip-header-weight: bold; */;iø;
 [ o;
-;;;@;["/* Changes the nub size */;i¬;
+;;;@;["/* Changes the nub size */;i√;
 [ o;
-;;;@;["'/* $joyride-tip-nub-size: 14px; */;iƒ;
+;;;@;["'/* $joyride-tip-nub-size: 14px; */;i≈;
 [ o;
-;;;@;["</* Adjusts the styles for the timer when its enabled */;i∆;
+;;;@;["</* Adjusts the styles for the timer when its enabled */;i«;
 [ o;
 ;;;@;["p/* $joyride-tip-timer-width: 50px;
  * $joyride-tip-timer-height: 3px;
- * $joyride-tip-timer-color: #666; */;i»;
+ * $joyride-tip-timer-color: #666; */;i…;
 [ o;
-;;;@;["5/* Changes up the styles for the close button */;iÃ;
+;;;@;["5/* Changes up the styles for the close button */;iÕ;
 [ o;
 ;;;@;["r/* $joyride-tip-close-color: #777;
  * $joyride-tip-close-size: 30px;
- * $joyride-tip-close-weight: normal; */;iŒ;
+ * $joyride-tip-close-weight: normal; */;iœ;
 [ o;
-;;;@;["?/* When Joyride is filling the screen, style for the bg */;i“;
+;;;@;["?/* When Joyride is filling the screen, style for the bg */;i”;
 [ o;
-;;;@;["0/* $joyride-screenfill: rgba(0,0,0,0.5); */;i‘;
+;;;@;["0/* $joyride-screenfill: rgba(0,0,0,0.5); */;i’;
 [ o;
 ;;;@;["$/*
  * Keystroke Variables
- * */;i÷;
+ * */;i◊;
 [ o;
-;;;@;["/* Text styles. */;i⁄;
+;;;@;["/* Text styles. */;i€;
 [ o;
 ;;;@;["œ/* $keystroke-font: "Consolas", "Menlo", "Courier", monospace;
  * $keystroke-font-size: emCalc(15px);
  * $keystroke-font-color: #222;
  * $keystroke-font-color-alt: #fff;
- * $keystroke-function-factor: 7%; */;i‹;
+ * $keystroke-function-factor: 7%; */;i›;
 [ o;
-;;;@;["/* Keystroke padding. */;i‚;
+;;;@;["/* Keystroke padding. */;i„;
 [ o;
-;;;@;["C/* $keystroke-padding: emCalc(2px) emCalc(4px) emCalc(0px); */;i‰;
+;;;@;["C/* $keystroke-padding: emCalc(2px) emCalc(4px) emCalc(0px); */;iÂ;
 [ o;
-;;;@;["(/* Background and border styles. */;iÊ;
+;;;@;["(/* Background and border styles. */;iÁ;
 [ o;
 ;;;@;["˜/* $keystroke-bg: darken(#fff, $keystroke-function-factor);
  * $keystroke-border-style: solid;
  * $keystroke-border-width: 1px;
  * $keystroke-border-color: darken($keystroke-bg, $keystroke-function-factor);
- * $keystroke-radius: $global-radius; */;iË;
+ * $keystroke-radius: $global-radius; */;iÈ;
 [ o;
 ;;;@;[" /*
  * Label Variables
- * */;iÓ;
+ * */;iÔ;
 [ o;
-;;;@;["/* Style the labels */;iÚ;
+;;;@;["/* Style the labels */;iÛ;
 [ o;
 ;;;@;["b/* $label-padding: emCalc(3px) emCalc(10px) emCalc(4px);
- * $label-radius: $global-radius; */;iÙ;
+ * $label-radius: $global-radius; */;iı;
 [ o;
-;;;@;["//* We use these to style the label text */;i˜;
+;;;@;["//* We use these to style the label text */;i¯;
 [ o;
 ;;;@;["Ä/* $label-font-sizing: emCalc(14px);
  * $label-font-weight: bold;
  * $label-font-color: #333;
- * $label-font-color-alt: #fff; */;i˘;
+ * $label-font-color-alt: #fff; */;i˙;
 [ o;
 ;;;@;["#/*
  * Magellan Variables
- * */;i˛;
+ * */;iˇ;
 [ o;
-;;;@;["/* Basic visual styles */;i;
+;;;@;["/* Basic visual styles */;i;
 [ o;
 ;;;@;[":/* $magellan-bg: #fff;
- * $magellan-padding: 10px; */;i;
+ * $magellan-padding: 10px; */;i;
 [ o;
 ;;;@;["/*
  * Orbit Settings
- * */;i;
+ * */;i;
 [ o;
-;;;@;["/* Caption styles */;i;
+;;;@;["/* Caption styles */;i;
 [ o;
 ;;;@;["î/* $orbit-container-bg: #f5f5f5;
  * $orbit-caption-bg-old: rgb(0,0,0);
  * $orbit-caption-bg: rgba(0,0,0,0.6);
- * $orbit-caption-font-color: #fff; */;i;
+ * $orbit-caption-font-color: #fff; */;i;
 [ o;
-;;;@;[" /* Left/right nav styles */;i;
+;;;@;[" /* Left/right nav styles */;i;
 [ o;
 ;;;@;["L/* $orbit-nav-bg-old: rgb(0,0,0);
- * $orbit-nav-bg: rgba(0,0,0,0.6); */;i;
+ * $orbit-nav-bg: rgba(0,0,0,0.6); */;i;
 [ o;
-;;;@;["/* Timer styles */;i;
+;;;@;["/* Timer styles */;i;
 [ o;
 ;;;@;["P/* $orbit-timer-bg-old: rgb(0,0,0);
- * $orbit-timer-bg: rgba(0,0,0,0.6); */;i;
+ * $orbit-timer-bg: rgba(0,0,0,0.6); */;i;
 [ o;
-;;;@;["/* Bullet nav styles */;i;
+;;;@;["/* Bullet nav styles */;i;
 [ o;
 ;;;@;["R/* $orbit-bullet-nav-color: #999;
- * $orbit-bullet-nav-color-active: #222; */;i;
+ * $orbit-bullet-nav-color-active: #222; */;i;
 [ o;
-;;;@;["/* Slide numbers */;i!;
+;;;@;["/* Slide numbers */;i";
 [ o;
 ;;;@;["Ç/* $orbit-slide-number-bg: rgba(0,0,0,0);
  * $orbit-slide-number-font-color: #fff;
- * $orbit-slide-number-padding: emCalc(5px); */;i#;
+ * $orbit-slide-number-padding: emCalc(5px); */;i$;
 [ o;
-;;;@;["1/* Graceful Loading Wrapper and preloader */;i';
+;;;@;["1/* Graceful Loading Wrapper and preloader */;i(;
 [ o;
 ;;;@;["R/* $wrapper-class: "slideshow-wrapper";
- * $preloader-class: "preloader" ; */;i);
+ * $preloader-class: "preloader" ; */;i*;
 [ o;
 ;;;@;["%/*
  * Pagination Variables
- * */;i,;
+ * */;i-;
 [ o;
-;;;@;["/* Pagination container */;i0;
+;;;@;["/* Pagination container */;i1;
 [ o;
 ;;;@;["Q/* $pagination-height: emCalc(24px);
- * $pagination-margin: emCalc(-5px); */;i2;
+ * $pagination-margin: emCalc(-5px); */;i3;
 [ o;
-;;;@;["/* List-item properties */;i5;
+;;;@;["/* List-item properties */;i6;
 [ o;
 ;;;@;["…/* $pagination-li-float: $default-float;
  * $pagination-li-height: emCalc(24px);
  * $pagination-li-font-color: #222;
  * $pagination-li-font-size: emCalc(14px);
- * $pagination-li-margin: emCalc(5px); */;i7;
+ * $pagination-li-margin: emCalc(5px); */;i8;
 [ o;
-;;;@;[""/* Pagination anchor links */;i=;
+;;;@;[""/* Pagination anchor links */;i>;
 [ o;
 ;;;@;["ò/* $pagination-link-pad: emCalc(1px) emCalc(7px) emCalc(1px);
  * $pagination-link-font-color: #999;
- * $pagination-link-active-bg: darken(#fff, 10%); */;i?;
+ * $pagination-link-active-bg: darken(#fff, 10%); */;i@;
 [ o;
-;;;@;[" /* Disabled anchor links */;iC;
+;;;@;[" /* Disabled anchor links */;iD;
 [ o;
 ;;;@;["´/* $pagination-link-unavailable-cursor: $cursor-default-value;
  * $pagination-link-unavailable-font-color: #999;
- * $pagination-link-unavailable-bg-active: transparent; */;iE;
+ * $pagination-link-unavailable-bg-active: transparent; */;iF;
 [ o;
-;;;@;["*/* Currently selected anchor links */;iI;
+;;;@;["*/* Currently selected anchor links */;iJ;
 [ o;
 ;;;@;["	/* $pagination-link-current-background: $primary-color;
  * $pagination-link-current-font-color: #fff;
  * $pagination-link-current-font-weight: bold;
  * $pagination-link-current-cursor: $cursor-default-value;
- * $pagination-link-current-active-bg: $primary-color; */;iK;
+ * $pagination-link-current-active-bg: $primary-color; */;iL;
 [ o;
 ;;;@;[" /*
  * Panel Variables
- * */;iQ;
+ * */;iR;
 [ o;
-;;;@;["'/* Background and border styles */;iU;
+;;;@;["'/* Background and border styles */;iV;
 [ o;
 ;;;@;["b/* $panel-bg: darken(#fff, 5%);
  * $panel-border-style: solid;
- * $panel-border-size: 1px; */;iW;
+ * $panel-border-size: 1px; */;iX;
 [ o;
-;;;@;["5/* Control how much we darken things on hover */;i[;
+;;;@;["5/* Control how much we darken things on hover */;i\;
 [ o;
 ;;;@;["j/* $panel-function-factor: 10%;
- * $panel-border-color: darken($panel-bg, $panel-function-factor); */;i];
+ * $panel-border-color: darken($panel-bg, $panel-function-factor); */;i^;
 [ o;
-;;;@;["*/* Inner padding and bottom margin */;i`;
+;;;@;["*/* Inner padding and bottom margin */;ia;
 [ o;
 ;;;@;["O/* $panel-margin-bottom: emCalc(20px);
- * $panel-padding: emCalc(20px); */;ib;
+ * $panel-padding: emCalc(20px); */;ic;
 [ o;
-;;;@;["/* Font colors */;ie;
+;;;@;["/* Font colors */;if;
 [ o;
 ;;;@;["C/* $panel-font-color: #333;
- * $panel-font-color-alt: #fff; */;ig;
+ * $panel-font-color-alt: #fff; */;ih;
 [ o;
 ;;;@;["(/*
  * Pricing Table Variables
- * */;ij;
+ * */;ik;
 [ o;
-;;;@;["/* Border color */;in;
+;;;@;["/* Border color */;io;
 [ o;
-;;;@;["//* $price-table-border: solid 1px #ddd; */;ip;
+;;;@;["//* $price-table-border: solid 1px #ddd; */;iq;
 [ o;
-;;;@;["-/* Bottom margin of the pricing table */;ir;
+;;;@;["-/* Bottom margin of the pricing table */;is;
 [ o;
-;;;@;["4/* $price-table-margin-bottom: emCalc(20px); */;it;
+;;;@;["4/* $price-table-margin-bottom: emCalc(20px); */;iu;
 [ o;
-;;;@;["#/* Control the title styles */;iv;
+;;;@;["#/* Control the title styles */;iw;
 [ o;
 ;;;@;["Œ/* $price-title-bg: #ddd;
  * $price-title-padding: emCalc(15px) emCalc(20px);
  * $price-title-align: center;
  * $price-title-color: #333;
  * $price-title-weight: bold;
- * $price-title-size: emCalc(16px); */;ix;
+ * $price-title-size: emCalc(16px); */;iy;
 [ o;
-;;;@;["#/* Control the price styles */;i;
+;;;@;["#/* Control the price styles */;iÄ;
 [ o;
 ;;;@;["–/* $price-money-bg: #eee;
  * $price-money-padding: emCalc(15px) emCalc(20px);
  * $price-money-align: center;
  * $price-money-color: #333;
  * $price-money-weight: normal;
- * $price-money-size: emCalc(20px); */;iÅ;
+ * $price-money-size: emCalc(20px); */;iÇ;
 [ o;
-;;;@;["/* Description styles */;ià;
+;;;@;["/* Description styles */;iâ;
 [ o;
 ;;;@;["/* $price-bg: #fff;
  * $price-desc-color: #777;
@@ -2196,204 +2198,203 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $price-desc-font-size: emCalc(12px);
  * $price-desc-weight: normal;
  * $price-desc-line-height: 1.4;
- * $price-desc-bottom-border: dotted 1px #ddd; */;iä;
+ * $price-desc-bottom-border: dotted 1px #ddd; */;iã;
 [ o;
-;;;@;["/* List item styles */;iì;
+;;;@;["/* List item styles */;iî;
 [ o;
 ;;;@;["ÿ/* $price-item-color: #333;
  * $price-item-padding: emCalc(15px);
  * $price-item-align: center;
  * $price-item-font-size: emCalc(14px);
  * $price-item-weight: normal;
- * $price-item-bottom-border: dotted 1px #ddd; */;iï;
+ * $price-item-bottom-border: dotted 1px #ddd; */;iñ;
 [ o;
-;;;@;["/* CTA area styles */;iú;
+;;;@;["/* CTA area styles */;iù;
 [ o;
 ;;;@;["s/* $price-cta-bg: #f5f5f5;
  * $price-cta-align: center;
- * $price-cta-padding: emCalc(20px) emCalc(20px) 0; */;iû;
+ * $price-cta-padding: emCalc(20px) emCalc(20px) 0; */;iü;
 [ o;
 ;;;@;["'/*
  * Progress Bar Variables
- * */;i¢;
+ * */;i£;
 [ o;
-;;;@;["/* Progress bar height */;i¶;
+;;;@;["/* Progress bar height */;iß;
 [ o;
 ;;;@;["S/* $progress-bar-height: emCalc(25px);
- * $progress-bar-color: transparent; */;i®;
+ * $progress-bar-color: transparent; */;i©;
 [ o;
-;;;@;["/* Border styles */;i´;
+;;;@;["/* Border styles */;i¨;
 [ o;
 ;;;@;["≠/* $progress-bar-border-color: darken(#fff, 20%);
  * $progress-bar-border-size: 1px;
  * $progress-bar-border-style: solid;
- * $progress-bar-border-radius: $global-radius; */;i≠;
+ * $progress-bar-border-radius: $global-radius; */;iÆ;
 [ o;
-;;;@;["/* Margin & padding */;i≤;
+;;;@;["/* Margin & padding */;i≥;
 [ o;
 ;;;@;["X/* $progress-bar-pad: emCalc(2px);
- * $progress-bar-margin-bottom: emCalc(10px); */;i¥;
+ * $progress-bar-margin-bottom: emCalc(10px); */;iµ;
 [ o;
-;;;@;["/* Meter colors */;i∑;
+;;;@;["/* Meter colors */;i∏;
 [ o;
 ;;;@;["¬/* $progress-meter-color: $primary-color;
  * $progress-meter-secondary-color: $secondary-color;
  * $progress-meter-success-color: $success-color;
- * $progress-meter-alert-color: $alert-color; */;iπ;
+ * $progress-meter-alert-color: $alert-color; */;i∫;
 [ o;
 ;;;@;["!/*
  * Reveal Variables
- * */;iæ;
+ * */;iø;
 [ o;
-;;;@;["/* Reveal overlay. */;i¬;
+;;;@;["/* Reveal overlay. */;i√;
 [ o;
 ;;;@;["P/* $reveal-overlay-bg: rgba(#000, .45);
- * $reveal-overlay-bg-old: #000; */;iƒ;
+ * $reveal-overlay-bg-old: #000; */;i≈;
 [ o;
-;;;@;["/* Modal itself. */;i«;
+;;;@;["/* Modal itself. */;i»;
 [ o;
 ;;;@;["≤/* $reveal-modal-bg: #fff;
  * $reveal-position-top: 50px;
  * $reveal-default-width: 80%;
  * $reveal-modal-padding: emCalc(20px);
- * $reveal-box-shadow: 0 0 10px rgba(#000,.4); */;i…;
+ * $reveal-box-shadow: 0 0 10px rgba(#000,.4); */;i ;
 [ o;
-;;;@;["/* Reveal close button */;iœ;
+;;;@;["/* Reveal close button */;i–;
 [ o;
 ;;;@;["±/* $reveal-close-font-size: emCalc(22px);
  * $reveal-close-top: emCalc(8px);
  * $reveal-close-side: emCalc(11px);
  * $reveal-close-color: #aaa;
- * $reveal-close-weight: bold; */;i—;
+ * $reveal-close-weight: bold; */;i“;
 [ o;
-;;;@;["/* Modal border */;i◊;
+;;;@;["/* Modal border */;iÿ;
 [ o;
 ;;;@;["d/* $reveal-border-style: solid;
  * $reveal-border-width: 1px;
- * $reveal-border-color: #666; */;iŸ;
+ * $reveal-border-color: #666; */;i⁄;
 [ o;
 ;;;@;["c/* $reveal-modal-class: "reveal-modal";
- * $close-reveal-modal-class: "close-reveal-modal"; */;i›;
+ * $close-reveal-modal-class: "close-reveal-modal"; */;iﬁ;
 [ o;
 ;;;@;[""/*
  * Section Variables
- * */;i‡;
+ * */;i·;
 [ o;
-;;;@;["#/* Padding and hover factor */;i‰;
+;;;@;["#/* Padding and hover factor */;iÂ;
 [ o;
 ;;;@;["}/* $section-title-padding: emCalc(15px);
  * $section-content-padding: emCalc(15px);
- * $section-function-factor: 10%; */;iÊ;
+ * $section-function-factor: 10%; */;iÁ;
 [ o;
-;;;@;["/* Titles */;iÍ;
+;;;@;["/* Titles */;iÎ;
 [ o;
 ;;;@;["/* $section-title-color: #333;
  * $section-title-bg: #efefef;
  * $section-title-bg-active: darken($section-title-bg, $section-function-factor);
  * $section-title-bg-active-tabs: #fff;
- * $section-title-bg-hover: darken($section-title-bg, $section-function-factor/2); */;iÏ;
+ * $section-title-bg-hover: darken($section-title-bg, $section-function-factor/2); */;iÌ;
 [ o;
-;;;@;["/* Border size */;iÚ;
+;;;@;["/* Border size */;iÛ;
 [ o;
 ;;;@;["f/* $section-border-size: 1px;
  * $section-border-style: solid;
- * $section-border-color: #ccc; */;iÙ;
+ * $section-border-color: #ccc; */;iı;
 [ o;
-;;;@;["/* Font controls */;i¯;
+;;;@;["/* Font controls */;i˘;
 [ o;
-;;;@;[",/* $section-font-size: emCalc(14px); */;i˙;
+;;;@;[",/* $section-font-size: emCalc(14px); */;i˚;
 [ o;
-;;;@;["D/* Control the color of the background and some size options */;i¸;
+;;;@;["D/* Control the color of the background and some size options */;i˝;
 [ o;
 ;;;@;["≤/* $section-content-bg: #fff;
  * $section-vertical-nav-min-width: emCalc(200px);
  * $section-vertical-tabs-title-width: emCalc(200px);
- * $section-bottom-margin: emCalc(20px); */;i˛;
+ * $section-bottom-margin: emCalc(20px); */;iˇ;
 [ o;
 ;;;@;["G/* $title-selector: ".title";
- * $content-selector: ".content"; */;i;
+ * $content-selector: ".content"; */;i;
 [ o;
 ;;;@;["#/*
  * Side Nav Variables
- * */;i;
+ * */;i;
 [ o;
-;;;@;["/* Padding */;i
-;
+;;;@;["/* Padding */;i;
 [ o;
-;;;@;["-/* $side-nav-padding: emCalc(14px) 0; */;i;
+;;;@;["-/* $side-nav-padding: emCalc(14px) 0; */;i;
 [ o;
-;;;@;["/* List styles */;i;
+;;;@;["/* List styles */;i;
 [ o;
 ;;;@;["v/* $side-nav-list-type: none;
  * $side-nav-list-position: inside;
- * $side-nav-list-margin: 0 0 emCalc(7px) 0; */;i;
+ * $side-nav-list-margin: 0 0 emCalc(7px) 0; */;i;
 [ o;
-;;;@;["/* Link styles */;i;
+;;;@;["/* Link styles */;i;
 [ o;
 ;;;@;["•/* $side-nav-link-color: $primary-color;
  * $side-nav-link-color-active: lighten(#000, 30%);
  * $side-nav-font-size: emCalc(14px);
- * $side-nav-font-weight: bold; */;i;
+ * $side-nav-font-weight: bold; */;i;
 [ o;
-;;;@;["/* Border styles */;i;
+;;;@;["/* Border styles */;i;
 [ o;
 ;;;@;["y/* $side-nav-divider-size: 1px;
  * $side-nav-divider-style: solid;
- * $side-nav-divider-color: darken(#fff, 10%); */;i;
+ * $side-nav-divider-color: darken(#fff, 10%); */;i;
 [ o;
 ;;;@;[""/*
  * Sub Nav Variables
- * */;i!;
+ * */;i";
 [ o;
-;;;@;["/* Margin and padding */;i%;
+;;;@;["/* Margin and padding */;i&;
 [ o;
 ;;;@;["h/* $sub-nav-list-margin: emCalc(-4px) 0 emCalc(18px);
- * $sub-nav-list-padding-top: emCalc(4px); */;i';
+ * $sub-nav-list-padding-top: emCalc(4px); */;i(;
 [ o;
-;;;@;["/* Definition */;i*;
+;;;@;["/* Definition */;i+;
 [ o;
 ;;;@;["¨/* $sub-nav-font-size: emCalc(14px);
  * $sub-nav-font-color: #999;
  * $sub-nav-font-weight: normal;
  * $sub-nav-text-decoration: none;
- * $sub-nav-border-radius: 1000px; */;i,;
+ * $sub-nav-border-radius: 1000px; */;i-;
 [ o;
-;;;@;["/* Active item styles */;i2;
+;;;@;["/* Active item styles */;i3;
 [ o;
 ;;;@;["÷/* $sub-nav-active-font-weight: bold;
  * $sub-nav-active-bg: $primary-color;
  * $sub-nav-active-color: #fff;
  * $sub-nav-active-padding: emCalc(3px) emCalc(9px);
- * $sub-nav-active-cursor: $cursor-default-value; */;i4;
+ * $sub-nav-active-cursor: $cursor-default-value; */;i5;
 [ o;
 ;;;@;["!/*
  * Switch Variables
- * */;i:;
+ * */;i;;
 [ o;
-;;;@;["G/* Border styles and background colors for the switch container */;i>;
+;;;@;["G/* Border styles and background colors for the switch container */;i?;
 [ o;
 ;;;@;["Å/* $switch-border-color: darken(#fff, 20%);
  * $switch-border-style: solid;
  * $switch-border-width: 1px;
- * $switch-bg: #fff; */;i@;
+ * $switch-bg: #fff; */;iA;
 [ o;
-;;;@;["1/* Switch heights for our default classes */;iE;
+;;;@;["1/* Switch heights for our default classes */;iF;
 [ o;
 ;;;@;["û/* $switch-height-tny: 22px;
  * $switch-height-sml: 28px;
  * $switch-height-med: 36px;
  * $switch-height-lrg: 44px;
- * $switch-bottom-margin: emCalc(20px); */;iG;
+ * $switch-bottom-margin: emCalc(20px); */;iH;
 [ o;
-;;;@;["&/* Font sizes for our classes. */;iM;
+;;;@;["&/* Font sizes for our classes. */;iN;
 [ o;
 ;;;@;["¶/* $switch-font-size-tny: 11px;
  * $switch-font-size-sml: 12px;
  * $switch-font-size-med: 14px;
  * $switch-font-size-lrg: 17px;
- * $switch-label-side-padding: 6px; */;iO;
+ * $switch-label-side-padding: 6px; */;iP;
 [ o;
-;;;@;["/* Switch-paddle */;iU;
+;;;@;["/* Switch-paddle */;iV;
 [ o;
 ;;;@;["û/* $switch-paddle-bg: #fff;
  * $switch-paddle-fade-to-color: darken($switch-paddle-bg, 10%);
@@ -2403,74 +2404,74 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $switch-paddle-transition-speed: .1s;
  * $switch-paddle-transition-ease: ease-out;
  * $switch-positive-color: lighten($success-color, 50%);
- * $switch-negative-color: #f5f5f5; */;iW;
+ * $switch-negative-color: #f5f5f5; */;iX;
 [ o;
-;;;@;["5/* Outline Style for tabbing through switches */;ia;
+;;;@;["5/* Outline Style for tabbing through switches */;ib;
 [ o;
-;;;@;["2/* $switch-label-outline: 1px dotted #888; */;ic;
+;;;@;["2/* $switch-label-outline: 1px dotted #888; */;id;
 [ o;
 ;;;@;[" /*
  * Table Variables
- * */;ie;
+ * */;if;
 [ o;
-;;;@;["7/* Background color for the table and even rows */;ii;
+;;;@;["7/* Background color for the table and even rows */;ij;
 [ o;
 ;;;@;[";/* $table-bg: #fff;
- * $table-even-row-bg: #f9f9f9; */;ik;
+ * $table-even-row-bg: #f9f9f9; */;il;
 [ o;
-;;;@;[""/* Table cell border style */;in;
+;;;@;[""/* Table cell border style */;io;
 [ o;
 ;;;@;["`/* $table-border-style: solid;
  * $table-border-size: 1px;
- * $table-border-color: #ddd; */;ip;
+ * $table-border-color: #ddd; */;iq;
 [ o;
-;;;@;["/* Table head styles */;it;
+;;;@;["/* Table head styles */;iu;
 [ o;
 ;;;@;["»/* $table-head-bg: #f5f5f5;
  * $table-head-font-size: emCalc(14px);
  * $table-head-font-color: #222;
  * $table-head-font-weight: bold;
- * $table-head-padding: emCalc(8px) emCalc(10px) emCalc(10px); */;iv;
+ * $table-head-padding: emCalc(8px) emCalc(10px) emCalc(10px); */;iw;
 [ o;
-;;;@;["&/* Row padding and font styles */;i|;
+;;;@;["&/* Row padding and font styles */;i};
 [ o;
 ;;;@;["ü/* $table-row-padding: emCalc(9px) emCalc(10px);
  * $table-row-font-size: emCalc(14px);
  * $table-row-font-color: #222;
- * $table-line-height: emCalc(18px); */;i~;
+ * $table-line-height: emCalc(18px); */;i;
 [ o;
-;;;@;["'/* Display and margin of tables */;iÉ;
+;;;@;["'/* Display and margin of tables */;iÑ;
 [ o;
 ;;;@;["M/* $table-display: table-cell;
- * $table-margin-bottom: emCalc(20px); */;iÖ;
+ * $table-margin-bottom: emCalc(20px); */;iÜ;
 [ o;
 ;;;@;["*/*
  * Image Thumbnail Variables
- * */;ià;
+ * */;iâ;
 [ o;
-;;;@;["/* Border styles */;iå;
+;;;@;["/* Border styles */;iç;
 [ o;
 ;;;@;["Õ/* $thumb-border-style: solid;
  * $thumb-border-width: 4px;
  * $thumb-border-color: #fff;
  * $thumb-box-shadow: 0 0 0 1px rgba(#000,.2);
- * $thumb-box-shadow-hover: 0 0 6px 1px rgba($primary-color,0.5); */;ié;
+ * $thumb-box-shadow-hover: 0 0 6px 1px rgba($primary-color,0.5); */;iè;
 [ o;
-;;;@;["1/* Radius and transition speed for thumbs */;iî;
+;;;@;["1/* Radius and transition speed for thumbs */;iï;
 [ o;
 ;;;@;["L/* $thumb-radius: $global-radius;
- * $thumb-transition-speed: 200ms; */;iñ;
+ * $thumb-transition-speed: 200ms; */;ió;
 [ o;
 ;;;@;[""/*
  * Tooltip Variables
- * */;iô;
+ * */;iö;
 [ o;
 ;;;@;["/* $has-tip-border-bottom: dotted 1px #ccc;
  * $has-tip-font-weight: bold;
  * $has-tip-font-color: #333;
  * $has-tip-border-bottom-hover: dotted 1px darken($primary-color, 20%);
  * $has-tip-font-color-hover: $primary-color;
- * $has-tip-cursor-type: help; */;iù;
+ * $has-tip-cursor-type: help; */;iû;
 [ o;
 ;;;@;["ò/* $tooltip-padding: emCalc(8px);
  * $tooltip-bg: #000;
@@ -2483,40 +2484,40 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $tooltip-close-font-color: #888;
  * $tooltip-font-size-sml: emCalc(14px);
  * $tooltip-radius: $global-radius;
- * $tooltip-pip-size: 5px; */;i§;
+ * $tooltip-pip-size: 5px; */;i•;
 [ o;
 ;;;@;[""/*
  * Top Bar Variables
- * */;i±;
+ * */;i≤;
 [ o;
-;;;@;["+/* Background color for the top bar */;iµ;
+;;;@;["+/* Background color for the top bar */;i∂;
 [ o;
-;;;@;["@/* $topbar-bg:                            #111 !default; */;i∑;
+;;;@;["@/* $topbar-bg:                            #111 !default; */;i∏;
 [ o;
-;;;@;["/* Height and margin */;iπ;
+;;;@;["/* Height and margin */;i∫;
 [ o;
 ;;;@;["o/* $topbar-height:                        45px;
- * $topbar-margin-bottom:                 emCalc(30px); */;iª;
+ * $topbar-margin-bottom:                 emCalc(30px); */;iº;
 [ o;
-;;;@;["+/* Control Input height for top bar */;iæ;
+;;;@;["+/* Control Input height for top bar */;iø;
 [ o;
-;;;@;["9/* $topbar-input-height:                  2.45em; */;i¿;
+;;;@;["9/* $topbar-input-height:                  2.45em; */;i¡;
 [ o;
-;;;@;[">/* Controlling the styles for the title in the top bar */;i¬;
+;;;@;[">/* Controlling the styles for the title in the top bar */;i√;
 [ o;
 ;;;@;["o/* $topbar-title-weight:                  bold;
- * $topbar-title-font-size:               emCalc(17px); */;iƒ;
+ * $topbar-title-font-size:               emCalc(17px); */;i≈;
 [ o;
-;;;@;["./* Style the top bar dropdown elements */;i«;
+;;;@;["./* Style the top bar dropdown elements */;i»;
 [ o;
 ;;;@;["3/* $topbar-dropdown-bg:                   #222;
  * $topbar-dropdown-link-color:           #fff;
  * $topbar-dropdown-link-bg:              lighten($topbar-bg, 5%);
  * $topbar-dropdown-toggle-size:          5px;
  * $topbar-dropdown-toggle-color:         #fff;
- * $topbar-dropdown-toggle-alpha:         0.5; */;i…;
+ * $topbar-dropdown-toggle-alpha:         0.5; */;i ;
 [ o;
-;;;@;[";/* Set the link colors and styles for top-level nav */;i–;
+;;;@;[";/* Set the link colors and styles for top-level nav */;i—;
 [ o;
 ;;;@;["ø/* $topbar-link-color:                    #fff;
  * $topbar-link-color-hover:              #fff;
@@ -2525,14 +2526,14 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $topbar-link-font-size:                emCalc(13px);
  * $topbar-link-hover-lightness:          -30%; // Darken by 30%
  * $topbar-link-bg-hover:                 darken($topbar-bg, 3%);
- * $topbar-link-bg-active:                darken($topbar-bg, 3%); */;i“;
+ * $topbar-link-bg-active:                darken($topbar-bg, 3%); */;i”;
 [ o;
 ;;;@;["œ/* $topbar-dropdown-label-color:          #555;
  * $topbar-dropdown-label-text-transform: uppercase;
  * $topbar-dropdown-label-font-weight:    bold;
- * $topbar-dropdown-label-font-size:      emCalc(10px); */;i€;
+ * $topbar-dropdown-label-font-size:      emCalc(10px); */;i‹;
 [ o;
-;;;@;["/* Top menu icon styles */;i‡;
+;;;@;["/* Top menu icon styles */;i·;
 [ o;
 ;;;@;["_/* $topbar-menu-link-transform:           uppercase;
  * $topbar-menu-link-font-size:           emCalc(13px);
@@ -2540,20 +2541,20 @@ comma;@;[o;#	;:string;@;"Titillium Web;i(o;#	;;$;@;"sans-serif;
  * $topbar-menu-link-color:               #fff;
  * $topbar-menu-icon-color:               #fff;
  * $topbar-menu-link-color-toggled:       #888;
- * $topbar-menu-icon-color-toggled:       #888; */;i‚;
+ * $topbar-menu-icon-color-toggled:       #888; */;i„;
 [ o;
-;;;@;[",/* Transitions and breakpoint styles */;iÍ;
+;;;@;[",/* Transitions and breakpoint styles */;iÎ;
 [ o;
 ;;;@;["˘/* $topbar-transition-speed:              300ms;
  * $topbar-breakpoint:                    emCalc(940px); // Change to 9999px for always mobile layout
- * $topbar-media-query:                   "only screen and (min-width: #{$topbar-breakpoint})"; */;iÏ;
+ * $topbar-media-query:                   "only screen and (min-width: #{$topbar-breakpoint})"; */;iÌ;
 [ o;
-;;;@;["/* Divider Styles */;i;
+;;;@;["/* Divider Styles */;iÒ;
 [ o;
 ;;;@;["ù/* $topbar-divider-border-bottom:         solid 1px lighten($topbar-bg, 10%);
- * $topbar-divider-border-top:            solid 1px darken($topbar-bg, 10%); */;iÚ;
+ * $topbar-divider-border-top:            solid 1px darken($topbar-bg, 10%); */;iÛ;
 [ o;
-;;;@;["/* Sticky Class */;iı;
+;;;@;["/* Sticky Class */;iˆ;
 [ o;
-;;;@;["</* $topbar-sticky-class:                  ".sticky"; */;i˜;
+;;;@;["</* $topbar-sticky-class:                  ".sticky"; */;i¯;
 [ 
