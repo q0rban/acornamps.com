@@ -73,7 +73,6 @@ div.row.content {
   text-align: center;
   i {
     font-size: 2.5em;
-    padding-right: emCalc(10px);
   }
 }
 
@@ -146,6 +145,9 @@ footer {
 @media (min-width: 600px) {
   .logo {
     margin-bottom: emCalc(20px);
+    i {
+      padding-right: emCalc(10px);
+    }
   }
   div.row.content {
     padding: emCalc(48px) emCalc(48px) emCalc(30px);
