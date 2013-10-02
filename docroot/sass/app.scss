@@ -60,7 +60,7 @@ body {
 }
 
 strong {
-  font-weight: 900;
+  font-weight: 700;
   font-color: $header-font-color;
 }
 
@@ -71,6 +71,7 @@ div.row.content {
 
 .logo {
   text-align: center;
+  line-height: 1em;
   i {
     font-size: 2.5em;
   }
