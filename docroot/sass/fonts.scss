@@ -9,16 +9,6 @@
   font-style: normal;
 }
 
-.icon-logo {
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-}
-.icon-logo:before {
-  content: "\e000";
+.icon-logo img {
+	width: 2.5em;
 }
