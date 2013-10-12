@@ -92,22 +92,26 @@ nav {
     -webkit-transition: font-size 0s;
     transition: font-size 0s;
     font-size: emCalc(18px);
-    color: $white-brown;
     margin: 0 .5em;
     opacity: .5;
     position: relative;
 
-    &:active, &:hover, &.active {
+    &, &:link, &:visited, &:active, &:hover, &.active {
       color: $white-brown;
+    }
+
+    &:active, &:hover, &.active {
       opacity: 1;
     }
+
     i.icon-caret-up {
-      display: block;
       position: absolute;
       text-align: center;
       top: .5em;
       left: -0.05em;
       font-size: 2.5em;
+      // Do not display the caret at mobile.
+      display: none;
     }
   }
 }
@@ -137,6 +141,7 @@ footer {
     font-size: emCalc(22px);
     margin: 0 .75em;
     i.icon-caret-up {
+      display: block;
       top: .4em;
     }
   }

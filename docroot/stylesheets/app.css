@@ -2474,68 +2474,71 @@ nav a {
   -webkit-transition: font-size 0s;
   transition: font-size 0s;
   font-size: 1.125em;
-  color: #fff8f1;
   margin: 0 .5em;
   opacity: .5;
   position: relative;
 }
-/* line 100, ../sass/app.scss */
-nav a:active, nav a:hover, nav a.active {
+/* line 97, ../sass/app.scss */
+nav a, nav a:link, nav a:visited, nav a:active, nav a:hover, nav a.active {
   color: #fff8f1;
+}
+/* line 101, ../sass/app.scss */
+nav a:active, nav a:hover, nav a.active {
   opacity: 1;
 }
-/* line 104, ../sass/app.scss */
+/* line 105, ../sass/app.scss */
 nav a i.icon-caret-up {
-  display: block;
   position: absolute;
   text-align: center;
   top: .5em;
   left: -0.05em;
   font-size: 2.5em;
+  display: none;
 }
 
-/* line 115, ../sass/app.scss */
+/* line 117, ../sass/app.scss */
 footer {
   margin-top: 1em;
   text-align: center;
   opacity: .7;
   color: #fff8f1;
 }
-/* line 119, ../sass/app.scss */
+/* line 121, ../sass/app.scss */
 footer:hover {
   opacity: 1;
 }
-/* line 123, ../sass/app.scss */
+/* line 125, ../sass/app.scss */
 footer .vcard {
   border: 0;
   line-height: 1.5;
 }
-/* line 127, ../sass/app.scss */
+/* line 129, ../sass/app.scss */
 footer .vcard .fn {
   display: none;
 }
-/* line 130, ../sass/app.scss */
+/* line 132, ../sass/app.scss */
 footer .tel {
   display: block;
 }
 
 @media (min-width: 420px) {
-  /* line 136, ../sass/app.scss */
+  /* line 138, ../sass/app.scss */
   nav a {
     font-size: 1.375em;
     margin: 0 .75em;
   }
-  /* line 139, ../sass/app.scss */
+  /* line 141, ../sass/app.scss */
   nav a i.icon-caret-up {
+    display: block;
     top: .4em;
   }
 
-  /* line 144, ../sass/app.scss */
+  /* line 147, ../sass/app.scss */
   footer .tel {
     margin-left: .5em;
     display: inline;
   }
-  /* line 147, ../sass/app.scss */
+  /* line 150, ../sass/app.scss */
   footer .tel:before {
     content: '|';
     padding-right: .5em;
@@ -2543,38 +2546,42 @@ footer .tel {
   }
 }
 @media (min-width: 600px) {
-  /* line 156, ../sass/app.scss */
+  /* line 159, ../sass/app.scss */
   .logo {
     margin-bottom: 1.25em;
   }
+  /* line 161, ../sass/app.scss */
+  .logo i {
+    padding-right: 0.625em;
+  }
 
-  /* line 162, ../sass/app.scss */
+  /* line 165, ../sass/app.scss */
   div.row.content {
     padding: 3em 3em 1.875em;
   }
 
-  /* line 165, ../sass/app.scss */
+  /* line 168, ../sass/app.scss */
   nav {
     margin-bottom: 1.875em;
     margin-top: 3em;
   }
-  /* line 168, ../sass/app.scss */
+  /* line 171, ../sass/app.scss */
   nav a {
     font-size: 1.875em;
   }
 }
 @media (min-width: 768px) {
-  /* line 175, ../sass/app.scss */
+  /* line 178, ../sass/app.scss */
   div.row.content {
     padding: 5.25em 6em;
   }
 
-  /* line 178, ../sass/app.scss */
+  /* line 181, ../sass/app.scss */
   nav {
     margin-bottom: 2.5em;
     margin-top: 8em;
   }
-  /* line 181, ../sass/app.scss */
+  /* line 184, ../sass/app.scss */
   nav a {
     font-size: 2.25em;
   }
