@@ -15,7 +15,7 @@
 @import "foundation/components/visibility";
 @import "foundation/components/block-grid";
 @import "foundation/components/type";
-// @import "foundation/components/buttons";
+@import "foundation/components/buttons";
 // @import "foundation/components/forms"; // *requires components/buttons
 // @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
 // @import "foundation/components/button-groups"; // *requires components/buttons
@@ -45,6 +45,9 @@
 // @import "foundation/components/thumbs";
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
+
+
+@import "vcard";
 
 * {
   -webkit-transition: all 300ms;
@@ -95,6 +98,7 @@ nav {
     margin: 0 .5em;
     opacity: .5;
     position: relative;
+    text-decoration: none;
 
     &, &:link, &:visited, &:active, &:hover, &.active {
       color: $white-brown;
@@ -119,10 +123,6 @@ nav {
 footer {
   margin-top: 1em;
   text-align: center;
-  opacity: .7;
-  &:hover {
-    opacity: 1;
-  }
   color: $white-brown;
   .vcard {
     border: 0;
@@ -161,7 +161,7 @@ footer {
   .logo {
     margin-bottom: emCalc(20px);
     i {
-      
+
     }
   }
   div.row.content {

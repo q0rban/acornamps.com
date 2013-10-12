@@ -25,7 +25,7 @@
 <body data-ng-app="acornAmpsApp">
 	<nav class="primary">
 		<ul>
-			<li><a href="#home" class="active">
+			<li class="active"><a href="#home" class="active">
 				<i class="icon-home icon-large"></i>
 				<span class="hide">Home</span>
 				<i class="icon-caret-up icon-3x"></i>
@@ -34,9 +34,15 @@
 				<i class="icon-map-marker icon-large"></i>
 				<span class="hide">Find us</span>
 			</a></li>
-			<li><a href="#contact-us" title="Give us a shout">
+<<<<<<< HEAD
+			<li><a href="tel:4046003696" title="Give us a call at (404) 600-3696">
+				<i class="icon-phone icon-large"></i>
+				<span class="hide">Call us</span>
+=======
+			<li><a href="#contact-us" title="Contact Us">
 				<i class="icon-comment icon-large"></i>
 				<span class="hide">Contact us</span>
+>>>>>>> Use Angular with partials for pages.
 			</a></li>
 			<li><a href="http://instagram.com/acornamps" title="Check us out on Instagram" target="_blank">
 				<i class="icon-instagram icon-large"></i>
@@ -52,7 +58,29 @@
 			</a></li>
 		</ul>
 	</nav>
-	<div class="row content" data-ng-view=""></div>
+<<<<<<< HEAD
+	<div class="row content">
+		<h1 class="logo"><i class="icon-logo"><img src="images/acorn-amps.svg" alt="Acorn Amps"></i><span class="hide">Acorn Amps</span></h1>
+		<article>
+			<p><strong>Hello</strong>! Welcome to <strong>Acorn Amps</strong>, where your ailing gear will find the
+			 fastest, friendliest <del>rocket</del> amplifier
+			 <i class="icon-beaker"></i> scientists <strong>in town</strong>. Is your beloved
+			 gadget gathering dust in a <i class="icon-building"></i> warehouse, unloved and uncared for?
+			 <a href="http://goo.gl/maps/QtvA4">Bring it by</a> Acorn Amps, where one of our gentle <del>giants</del> <strong>geniuses</strong> <i class="icon-lightbulb"></i>
+			 will pamper it with a warm cookie and a good
+			 <i class="icon-heart"></i> snuggle. We use all <i class="icon-leaf"></i> organic, farm-raised <i class="icon-code-fork icon-large"></i> electronic components along with our cave-aged vacuum tubes—the
+			 best that money can buy—leaving you with the <i class="icon-smile"></i> <strong>peace of mind</strong> that your gear
+			 will <i class="icon-volume-up"></i> melt faces for years to come.
+			</p>
+			<p>We <del>make love to</del> service <strong>Guitar Amps</strong>, <strong>Bass Amps</strong>,
+			<strong>Power Amps</strong>, <strong>Mic Preamps</strong>, <strong>FX
+			Pedals</strong>, <strong>Keyboards</strong>, <strong>Consoles</strong>, <strong>Mixers</strong>, <strong>Power Supplies</strong>,
+			<strong>Speakers</strong>, <strong>Microphones</strong>, and pretty much anything else you can plug into, so give us a call at <a href="tel:4046003696">(404) 600-3696</a>, and let us know <del>what your favorite cookie is</del> what we can do for you.</p>
+		</article>
+	</div>
+=======
+	<div class="row content" data-ng-view="" ng-view></div>
+>>>>>>> Use Angular with partials for pages.
 
 	<div class="row">
 		<footer>
