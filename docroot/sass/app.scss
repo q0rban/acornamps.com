@@ -99,6 +99,7 @@ nav {
     opacity: .5;
     position: relative;
     text-decoration: none;
+    text-align: center;
 
     &, &:link, &:visited, &:active, &:hover, &.active {
       color: $white-brown;
@@ -110,12 +111,11 @@ nav {
 
     i.icon-caret-up {
       position: absolute;
-      text-align: center;
-      top: .5em;
+      top: .4em;
       left: -0.05em;
       font-size: 2.5em;
       // Do not display the caret at mobile.
-      display: none;
+      opacity: 0;
     }
   }
 }
@@ -140,9 +140,8 @@ footer {
   nav a {
     font-size: emCalc(22px);
     margin: 0 .75em;
-    i.icon-caret-up {
-      display: block;
-      top: .4em;
+    &.active i.icon-caret-up {
+      opacity: 1;
     }
   }
 

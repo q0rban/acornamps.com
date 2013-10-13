@@ -2715,23 +2715,23 @@ nav a {
   opacity: .5;
   position: relative;
   text-decoration: none;
+  text-align: center;
 }
-/* line 103, ../sass/app.scss */
+/* line 104, ../sass/app.scss */
 nav a, nav a:link, nav a:visited, nav a:active, nav a:hover, nav a.active {
   color: #fff8f1;
 }
-/* line 107, ../sass/app.scss */
+/* line 108, ../sass/app.scss */
 nav a:active, nav a:hover, nav a.active {
   opacity: 1;
 }
-/* line 111, ../sass/app.scss */
+/* line 112, ../sass/app.scss */
 nav a i.icon-caret-up {
   position: absolute;
-  text-align: center;
-  top: .5em;
+  top: .4em;
   left: -0.05em;
   font-size: 2.5em;
-  display: none;
+  opacity: 0;
 }
 
 /* line 123, ../sass/app.scss */
@@ -2761,17 +2761,16 @@ footer .tel {
     margin: 0 .75em;
   }
   /* line 143, ../sass/app.scss */
-  nav a i.icon-caret-up {
-    display: block;
-    top: .4em;
+  nav a.active i.icon-caret-up {
+    opacity: 1;
   }
 
-  /* line 149, ../sass/app.scss */
+  /* line 148, ../sass/app.scss */
   footer .tel {
     margin-left: .5em;
     display: inline;
   }
-  /* line 152, ../sass/app.scss */
+  /* line 151, ../sass/app.scss */
   footer .tel:before {
     content: '|';
     padding-right: .5em;
@@ -2779,38 +2778,38 @@ footer .tel {
   }
 }
 @media (min-width: 600px) {
-  /* line 161, ../sass/app.scss */
+  /* line 160, ../sass/app.scss */
   .logo {
     margin-bottom: 1.25em;
   }
 
-  /* line 167, ../sass/app.scss */
+  /* line 166, ../sass/app.scss */
   div.row.content {
     padding: 3em 3em 1.875em;
   }
 
-  /* line 170, ../sass/app.scss */
+  /* line 169, ../sass/app.scss */
   nav {
     margin-bottom: 1.875em;
     margin-top: 3em;
   }
-  /* line 173, ../sass/app.scss */
+  /* line 172, ../sass/app.scss */
   nav a {
     font-size: 1.875em;
   }
 }
 @media (min-width: 768px) {
-  /* line 180, ../sass/app.scss */
+  /* line 179, ../sass/app.scss */
   div.row.content {
     padding: 5.25em 6em;
   }
 
-  /* line 183, ../sass/app.scss */
+  /* line 182, ../sass/app.scss */
   nav {
     margin-bottom: 2.5em;
     margin-top: 8em;
   }
-  /* line 186, ../sass/app.scss */
+  /* line 185, ../sass/app.scss */
   nav a {
     font-size: 2.25em;
   }
