@@ -18,40 +18,11 @@
 
 	<script src="javascripts/vendor/custom.modernizr.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular-route.min.js"></script>
 	<script src="javascripts/app.js"></script>
 
 </head>
 <body data-ng-app="acornAmpsApp">
-	<nav class="primary">
-		<ul>
-			<li><a href="#home" class="active">
-				<i class="icon-home icon-large"></i>
-				<span class="hide">Home</span>
-				<i class="icon-caret-up icon-3x"></i>
-			</a></li>
-			<li><a href="#find-us" title="Directions to Acorn Amps">
-				<i class="icon-map-marker icon-large"></i>
-				<span class="hide">Find us</span>
-			</a></li>
-			<li><a href="#contact-us" title="Give us a shout">
-				<i class="icon-comment icon-large"></i>
-				<span class="hide">Contact us</span>
-			</a></li>
-			<li><a href="http://instagram.com/acornamps" title="Check us out on Instagram" target="_blank">
-				<i class="icon-instagram icon-large"></i>
-				<span class="hide">Instagram</span>
-			</a></li>
-			<li><a href="https://www.facebook.com/AcornAmps" title="Check us out on Facebook" target="_blank">
-				<i class="icon-facebook icon-large"></i>
-				<span class="hide">Twitter</span>
-			</a></li>
-			<li><a href="http://twitter.com/acornamps" title="Check us out on Twitter" target="_blank">
-				<i class="icon-twitter icon-large"></i>
-				<span class="hide">Twitter</span>
-			</a></li>
-		</ul>
-	</nav>
+	<nav class="primary" data-ng-controller="navController" data-ng-include="" src="template"></nav>
 	<div class="row content" data-ng-view=""></div>
 
 	<div class="row">

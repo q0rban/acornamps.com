@@ -1,0 +1,9 @@
+<ul>
+	<li data-ng-repeat="link in links">
+		<a href="{{link.href}}" title="{{link.title}}" data-ng-class="{ active: isActive(link.href) }">
+			<i class="{{link.icon}} icon-large nav-icon"></i>
+			<span class="hide">{{link.text}}</span>
+			<i class="icon-caret-up icon-3x"></i>
+		</a>
+	</li>
+</ul>
