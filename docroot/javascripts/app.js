@@ -23,24 +23,28 @@ function navController($scope, $location) {
 
   $scope.links = [
     {
+      'class': "home",
       'href': '#/home',
       'text': 'Home',
       'icon': 'icon-home',
       'title': 'Home'
     },
     {
+      'class': "find-us",
       'href': '#/find-us',
       'text': 'Find Us',
       'icon': 'icon-map-marker',
       'title': 'Directions to Acorn Amps…'
     },
     {
+      'class': "contact-us",
       'href': '#/contact-us',
       'text': 'Contact Us',
       'icon': 'icon-comment',
       'title': 'Give us a shout…'
     },
     {
+      'class': "instagram",
       'href': 'http://instagram.com/acornamps',
       'text': 'Instagram',
       'icon': 'icon-instagram',
@@ -48,6 +52,7 @@ function navController($scope, $location) {
       'external': true
     },
     {
+      'class': "facebook",
       'href': 'http://facebook.com/acornamps',
       'text': 'Facebook',
       'icon': 'icon-facebook',
@@ -55,6 +60,7 @@ function navController($scope, $location) {
       'external': true
     },
     {
+      'class': "twitter",
       'href': 'http://twitter.com/AcornAmps',
       'text': 'Twitter',
       'icon': 'icon-twitter',

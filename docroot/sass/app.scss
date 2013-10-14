@@ -114,8 +114,10 @@ nav {
       top: .4em;
       left: -0.05em;
       font-size: 2.5em;
-      // Do not display the caret at mobile.
       opacity: 0;
+    }
+    &.find-us i.icon-caret-up {
+      left: -0.12em;
     }
   }
 }
