@@ -81,6 +81,10 @@ div.row.content {
   }
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 nav {
   margin-bottom: emCalc(20px);
 
